@@ -1,0 +1,17 @@
+/home/vboxuser/ws/install/robot_start/share/robot_start/launch/demo.launch.py
+/home/vboxuser/ws/install/robot_start/share/robot_start/launch/rover_start.launch.py
+/home/vboxuser/ws/install/robot_start/share/ament_index/resource_index/package_run_dependencies/robot_start
+/home/vboxuser/ws/install/robot_start/share/ament_index/resource_index/parent_prefix_path/robot_start
+/home/vboxuser/ws/install/robot_start/share/robot_start/environment/ament_prefix_path.sh
+/home/vboxuser/ws/install/robot_start/share/robot_start/environment/ament_prefix_path.dsv
+/home/vboxuser/ws/install/robot_start/share/robot_start/environment/path.sh
+/home/vboxuser/ws/install/robot_start/share/robot_start/environment/path.dsv
+/home/vboxuser/ws/install/robot_start/share/robot_start/local_setup.bash
+/home/vboxuser/ws/install/robot_start/share/robot_start/local_setup.sh
+/home/vboxuser/ws/install/robot_start/share/robot_start/local_setup.zsh
+/home/vboxuser/ws/install/robot_start/share/robot_start/local_setup.dsv
+/home/vboxuser/ws/install/robot_start/share/robot_start/package.dsv
+/home/vboxuser/ws/install/robot_start/share/ament_index/resource_index/packages/robot_start
+/home/vboxuser/ws/install/robot_start/share/robot_start/cmake/robot_startConfig.cmake
+/home/vboxuser/ws/install/robot_start/share/robot_start/cmake/robot_startConfig-version.cmake
+/home/vboxuser/ws/install/robot_start/share/robot_start/package.xml

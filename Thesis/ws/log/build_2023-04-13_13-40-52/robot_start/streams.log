@@ -1,0 +1,23 @@
+[0.691s] Invoking command in '/home/vboxuser/ws/build/robot_start': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ws/build/robot_start -- -j6 -l6
+[0.782s] Invoked command in '/home/vboxuser/ws/build/robot_start' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ws/build/robot_start -- -j6 -l6
+[0.829s] Invoking command in '/home/vboxuser/ws/build/robot_start': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ws/build/robot_start
+[0.837s] -- Install configuration: ""
+[0.837s] -- Up-to-date: /home/vboxuser/ws/install/robot_start/share/robot_start/launch
+[0.838s] -- Up-to-date: /home/vboxuser/ws/install/robot_start/share/robot_start/launch/demo.launch.py
+[0.838s] -- Up-to-date: /home/vboxuser/ws/install/robot_start/share/robot_start/launch/rover_start.launch.py
+[0.838s] -- Up-to-date: /home/vboxuser/ws/install/robot_start/share/ament_index/resource_index/package_run_dependencies/robot_start
+[0.839s] -- Up-to-date: /home/vboxuser/ws/install/robot_start/share/ament_index/resource_index/parent_prefix_path/robot_start
+[0.840s] -- Up-to-date: /home/vboxuser/ws/install/robot_start/share/robot_start/environment/ament_prefix_path.sh
+[0.840s] -- Up-to-date: /home/vboxuser/ws/install/robot_start/share/robot_start/environment/ament_prefix_path.dsv
+[0.841s] -- Up-to-date: /home/vboxuser/ws/install/robot_start/share/robot_start/environment/path.sh
+[0.842s] -- Up-to-date: /home/vboxuser/ws/install/robot_start/share/robot_start/environment/path.dsv
+[0.842s] -- Up-to-date: /home/vboxuser/ws/install/robot_start/share/robot_start/local_setup.bash
+[0.843s] -- Up-to-date: /home/vboxuser/ws/install/robot_start/share/robot_start/local_setup.sh
+[0.844s] -- Up-to-date: /home/vboxuser/ws/install/robot_start/share/robot_start/local_setup.zsh
+[0.844s] -- Up-to-date: /home/vboxuser/ws/install/robot_start/share/robot_start/local_setup.dsv
+[0.845s] -- Installing: /home/vboxuser/ws/install/robot_start/share/robot_start/package.dsv
+[0.847s] -- Up-to-date: /home/vboxuser/ws/install/robot_start/share/ament_index/resource_index/packages/robot_start
+[0.847s] -- Up-to-date: /home/vboxuser/ws/install/robot_start/share/robot_start/cmake/robot_startConfig.cmake
+[0.848s] -- Up-to-date: /home/vboxuser/ws/install/robot_start/share/robot_start/cmake/robot_startConfig-version.cmake
+[0.848s] -- Up-to-date: /home/vboxuser/ws/install/robot_start/share/robot_start/package.xml
+[0.854s] Invoked command in '/home/vboxuser/ws/build/robot_start' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ws/build/robot_start

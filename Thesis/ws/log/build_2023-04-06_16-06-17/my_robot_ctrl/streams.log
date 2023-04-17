@@ -1,0 +1,24 @@
+[1.531s] Invoking command in '/home/vboxuser/ws/src/my_robot_ctrl': PYTHONPATH=/home/vboxuser/ws/build/my_robot_ctrl/prefix_override:/home/vboxuser/ws/install/my_robot_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_ctrl build --build-base /home/vboxuser/ws/build/my_robot_ctrl/build install --record /home/vboxuser/ws/build/my_robot_ctrl/install.log --single-version-externally-managed
+[2.061s] running egg_info
+[2.065s] writing ../../build/my_robot_ctrl/my_robot_ctrl.egg-info/PKG-INFO
+[2.066s] writing dependency_links to ../../build/my_robot_ctrl/my_robot_ctrl.egg-info/dependency_links.txt
+[2.066s] writing entry points to ../../build/my_robot_ctrl/my_robot_ctrl.egg-info/entry_points.txt
+[2.067s] writing requirements to ../../build/my_robot_ctrl/my_robot_ctrl.egg-info/requires.txt
+[2.068s] writing top-level names to ../../build/my_robot_ctrl/my_robot_ctrl.egg-info/top_level.txt
+[2.071s] reading manifest file '../../build/my_robot_ctrl/my_robot_ctrl.egg-info/SOURCES.txt'
+[2.072s] writing manifest file '../../build/my_robot_ctrl/my_robot_ctrl.egg-info/SOURCES.txt'
+[2.072s] running build
+[2.073s] running build_py
+[2.073s] copying my_robot_ctrl/pynode.py -> /home/vboxuser/ws/build/my_robot_ctrl/build/lib/my_robot_ctrl
+[2.074s] running install
+[2.075s] running install_lib
+[2.076s] copying /home/vboxuser/ws/build/my_robot_ctrl/build/lib/my_robot_ctrl/pynode.py -> /home/vboxuser/ws/install/my_robot_ctrl/lib/python3.10/site-packages/my_robot_ctrl
+[2.080s] byte-compiling /home/vboxuser/ws/install/my_robot_ctrl/lib/python3.10/site-packages/my_robot_ctrl/pynode.py to pynode.cpython-310.pyc
+[2.098s] running install_data
+[2.098s] running install_egg_info
+[2.099s] removing '/home/vboxuser/ws/install/my_robot_ctrl/lib/python3.10/site-packages/my_robot_ctrl-0.0.0-py3.10.egg-info' (and everything under it)
+[2.101s] Copying ../../build/my_robot_ctrl/my_robot_ctrl.egg-info to /home/vboxuser/ws/install/my_robot_ctrl/lib/python3.10/site-packages/my_robot_ctrl-0.0.0-py3.10.egg-info
+[2.103s] running install_scripts
+[2.145s] Installing mynode script to /home/vboxuser/ws/install/my_robot_ctrl/lib/my_robot_ctrl
+[2.146s] writing list of installed files to '/home/vboxuser/ws/build/my_robot_ctrl/install.log'
+[2.186s] Invoked command in '/home/vboxuser/ws/src/my_robot_ctrl' returned '0': PYTHONPATH=/home/vboxuser/ws/build/my_robot_ctrl/prefix_override:/home/vboxuser/ws/install/my_robot_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_ctrl build --build-base /home/vboxuser/ws/build/my_robot_ctrl/build install --record /home/vboxuser/ws/build/my_robot_ctrl/install.log --single-version-externally-managed

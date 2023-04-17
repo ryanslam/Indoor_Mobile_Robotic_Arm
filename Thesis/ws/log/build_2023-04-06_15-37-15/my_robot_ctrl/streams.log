@@ -1,0 +1,35 @@
+[1.604s] Invoking command in '/home/vboxuser/ws/src/my_robot_ctrl': PYTHONPATH=/home/vboxuser/ws/build/my_robot_ctrl/prefix_override:/home/vboxuser/ws/install/my_robot_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_ctrl build --build-base /home/vboxuser/ws/build/my_robot_ctrl/build install --record /home/vboxuser/ws/build/my_robot_ctrl/install.log --single-version-externally-managed
+[2.058s] running egg_info
+[2.060s] creating ../../build/my_robot_ctrl/my_robot_ctrl.egg-info
+[2.061s] writing ../../build/my_robot_ctrl/my_robot_ctrl.egg-info/PKG-INFO
+[2.066s] writing dependency_links to ../../build/my_robot_ctrl/my_robot_ctrl.egg-info/dependency_links.txt
+[2.066s] writing entry points to ../../build/my_robot_ctrl/my_robot_ctrl.egg-info/entry_points.txt
+[2.066s] writing requirements to ../../build/my_robot_ctrl/my_robot_ctrl.egg-info/requires.txt
+[2.067s] writing top-level names to ../../build/my_robot_ctrl/my_robot_ctrl.egg-info/top_level.txt
+[2.068s] writing manifest file '../../build/my_robot_ctrl/my_robot_ctrl.egg-info/SOURCES.txt'
+[2.079s] reading manifest file '../../build/my_robot_ctrl/my_robot_ctrl.egg-info/SOURCES.txt'
+[2.079s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.080s]   warnings.warn(
+[2.080s] writing manifest file '../../build/my_robot_ctrl/my_robot_ctrl.egg-info/SOURCES.txt'
+[2.080s] running build
+[2.081s] running build_py
+[2.081s] creating /home/vboxuser/ws/build/my_robot_ctrl/build
+[2.081s] creating /home/vboxuser/ws/build/my_robot_ctrl/build/lib
+[2.081s] creating /home/vboxuser/ws/build/my_robot_ctrl/build/lib/my_robot_ctrl
+[2.081s] copying my_robot_ctrl/__init__.py -> /home/vboxuser/ws/build/my_robot_ctrl/build/lib/my_robot_ctrl
+[2.081s] running install
+[2.081s] running install_lib
+[2.082s] creating /home/vboxuser/ws/install/my_robot_ctrl/lib/python3.10/site-packages/my_robot_ctrl
+[2.082s] copying /home/vboxuser/ws/build/my_robot_ctrl/build/lib/my_robot_ctrl/__init__.py -> /home/vboxuser/ws/install/my_robot_ctrl/lib/python3.10/site-packages/my_robot_ctrl
+[2.083s] byte-compiling /home/vboxuser/ws/install/my_robot_ctrl/lib/python3.10/site-packages/my_robot_ctrl/__init__.py to __init__.cpython-310.pyc
+[2.084s] running install_data
+[2.085s] creating /home/vboxuser/ws/install/my_robot_ctrl/share/ament_index
+[2.085s] creating /home/vboxuser/ws/install/my_robot_ctrl/share/ament_index/resource_index
+[2.086s] creating /home/vboxuser/ws/install/my_robot_ctrl/share/ament_index/resource_index/packages
+[2.086s] copying resource/my_robot_ctrl -> /home/vboxuser/ws/install/my_robot_ctrl/share/ament_index/resource_index/packages
+[2.086s] copying package.xml -> /home/vboxuser/ws/install/my_robot_ctrl/share/my_robot_ctrl
+[2.086s] running install_egg_info
+[2.090s] Copying ../../build/my_robot_ctrl/my_robot_ctrl.egg-info to /home/vboxuser/ws/install/my_robot_ctrl/lib/python3.10/site-packages/my_robot_ctrl-0.0.0-py3.10.egg-info
+[2.092s] running install_scripts
+[2.149s] writing list of installed files to '/home/vboxuser/ws/build/my_robot_ctrl/install.log'
+[2.222s] Invoked command in '/home/vboxuser/ws/src/my_robot_ctrl' returned '0': PYTHONPATH=/home/vboxuser/ws/build/my_robot_ctrl/prefix_override:/home/vboxuser/ws/install/my_robot_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_ctrl build --build-base /home/vboxuser/ws/build/my_robot_ctrl/build install --record /home/vboxuser/ws/build/my_robot_ctrl/install.log --single-version-externally-managed

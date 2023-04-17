@@ -1,0 +1,6 @@
+Invoking command in '/home/rslam/Desktop/Thesis/build/robot_start': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rslam/Desktop/Thesis/ws/src/robot_start -DCMAKE_INSTALL_PREFIX=/home/rslam/Desktop/Thesis/install/robot_start
+Invoked command in '/home/rslam/Desktop/Thesis/build/robot_start' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rslam/Desktop/Thesis/ws/src/robot_start -DCMAKE_INSTALL_PREFIX=/home/rslam/Desktop/Thesis/install/robot_start
+Invoking command in '/home/rslam/Desktop/Thesis/build/robot_start': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rslam/Desktop/Thesis/build/robot_start -- -j8 -l8
+Invoked command in '/home/rslam/Desktop/Thesis/build/robot_start' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rslam/Desktop/Thesis/build/robot_start -- -j8 -l8
+Invoking command in '/home/rslam/Desktop/Thesis/build/robot_start': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rslam/Desktop/Thesis/build/robot_start
+Invoked command in '/home/rslam/Desktop/Thesis/build/robot_start' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rslam/Desktop/Thesis/build/robot_start

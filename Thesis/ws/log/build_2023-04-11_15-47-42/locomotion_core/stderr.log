@@ -1,0 +1,5 @@
+  File "/home/vboxuser/ws/install/locomotion_core/lib/python3.10/site-packages/locomotion_core/cmd_motors.py", line 26
+    minimal_subscriber = du_commander)
+                                     ^
+SyntaxError: unmatched ')'
+
