@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/vboxuser/ws/src/teleop_twist_joy/src/teleop_twist_joy.cpp" "CMakeFiles/teleop_twist_joy.dir/src/teleop_twist_joy.cpp.o" "gcc" "CMakeFiles/teleop_twist_joy.dir/src/teleop_twist_joy.cpp.o.d"
+  "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/teleop_twist_joy/src/teleop_twist_joy.cpp" "CMakeFiles/teleop_twist_joy.dir/src/teleop_twist_joy.cpp.o" "gcc" "CMakeFiles/teleop_twist_joy.dir/src/teleop_twist_joy.cpp.o.d"
   )
 
 # Targets to which this target links.

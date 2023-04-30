@@ -1,8 +1,8 @@
-# Install script for directory: /home/vboxuser/ws/src/teleop_twist_joy
+# Install script for directory: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/teleop_twist_joy
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vboxuser/ws/install/teleop_twist_joy")
+  set(CMAKE_INSTALL_PREFIX "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libteleop_twist_joy.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/vboxuser/ws/build/teleop_twist_joy/libteleop_twist_joy.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy/libteleop_twist_joy.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libteleop_twist_joy.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libteleop_twist_joy.so")
     file(RPATH_CHANGE
@@ -72,12 +72,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/teleop_twist_joy/teleop_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/teleop_twist_joy" TYPE EXECUTABLE FILES "/home/vboxuser/ws/build/teleop_twist_joy/teleop_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/teleop_twist_joy" TYPE EXECUTABLE FILES "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy/teleop_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/teleop_twist_joy/teleop_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/teleop_twist_joy/teleop_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/teleop_twist_joy/teleop_node"
-         OLD_RPATH "/home/vboxuser/ws/build/teleop_twist_joy:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/teleop_twist_joy/teleop_node")
@@ -86,17 +86,17 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/vboxuser/ws/src/teleop_twist_joy/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/teleop_twist_joy/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/teleop_twist_joy" TYPE FILE FILES "/home/vboxuser/ws/build/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy_export.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/teleop_twist_joy" TYPE FILE FILES "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy_export.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy" TYPE DIRECTORY FILES
-    "/home/vboxuser/ws/src/teleop_twist_joy/launch"
-    "/home/vboxuser/ws/src/teleop_twist_joy/config"
+    "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/teleop_twist_joy/launch"
+    "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/teleop_twist_joy/config"
     )
 endif()
 
@@ -105,15 +105,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy/environment" TYPE FILE FILES "/home/vboxuser/ws/build/teleop_twist_joy/ament_cmake_environment_hooks/library_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy/environment" TYPE FILE FILES "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy/ament_cmake_environment_hooks/library_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/vboxuser/ws/build/teleop_twist_joy/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/vboxuser/ws/build/teleop_twist_joy/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -121,7 +121,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy/environment" TYPE FILE FILES "/home/vboxuser/ws/build/teleop_twist_joy/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy/environment" TYPE FILE FILES "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -129,54 +129,54 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy/environment" TYPE FILE FILES "/home/vboxuser/ws/build/teleop_twist_joy/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy/environment" TYPE FILE FILES "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy" TYPE FILE FILES "/home/vboxuser/ws/build/teleop_twist_joy/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy" TYPE FILE FILES "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy" TYPE FILE FILES "/home/vboxuser/ws/build/teleop_twist_joy/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy" TYPE FILE FILES "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy" TYPE FILE FILES "/home/vboxuser/ws/build/teleop_twist_joy/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy" TYPE FILE FILES "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy" TYPE FILE FILES "/home/vboxuser/ws/build/teleop_twist_joy/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy" TYPE FILE FILES "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy" TYPE FILE FILES "/home/vboxuser/ws/build/teleop_twist_joy/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy" TYPE FILE FILES "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/vboxuser/ws/build/teleop_twist_joy/ament_cmake_index/share/ament_index/resource_index/packages/teleop_twist_joy")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy/ament_cmake_index/share/ament_index/resource_index/packages/teleop_twist_joy")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rclcpp_components" TYPE FILE FILES "/home/vboxuser/ws/build/teleop_twist_joy/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rclcpp_components" TYPE FILE FILES "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy/cmake" TYPE FILE FILES "/home/vboxuser/ws/build/teleop_twist_joy/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy/cmake" TYPE FILE FILES "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy/cmake" TYPE FILE FILES "/home/vboxuser/ws/build/teleop_twist_joy/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy/cmake" TYPE FILE FILES "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy/cmake" TYPE FILE FILES
-    "/home/vboxuser/ws/build/teleop_twist_joy/ament_cmake_core/teleop_twist_joyConfig.cmake"
-    "/home/vboxuser/ws/build/teleop_twist_joy/ament_cmake_core/teleop_twist_joyConfig-version.cmake"
+    "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy/ament_cmake_core/teleop_twist_joyConfig.cmake"
+    "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy/ament_cmake_core/teleop_twist_joyConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy" TYPE FILE FILES "/home/vboxuser/ws/src/teleop_twist_joy/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_joy" TYPE FILE FILES "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/teleop_twist_joy/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -187,5 +187,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/vboxuser/ws/build/teleop_twist_joy/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

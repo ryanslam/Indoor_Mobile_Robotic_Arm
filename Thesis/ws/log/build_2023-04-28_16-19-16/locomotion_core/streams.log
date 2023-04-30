@@ -1,0 +1,29 @@
+[3.677s] Invoking command in '/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/locomotion_core': PYTHONPATH=/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/prefix_override:/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locomotion_core build --build-base /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/build install --record /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/install.log --single-version-externally-managed
+[4.843s] running egg_info
+[4.870s] writing ../../build/locomotion_core/locomotion_core.egg-info/PKG-INFO
+[4.871s] writing dependency_links to ../../build/locomotion_core/locomotion_core.egg-info/dependency_links.txt
+[4.872s] writing entry points to ../../build/locomotion_core/locomotion_core.egg-info/entry_points.txt
+[4.873s] writing requirements to ../../build/locomotion_core/locomotion_core.egg-info/requires.txt
+[4.874s] writing top-level names to ../../build/locomotion_core/locomotion_core.egg-info/top_level.txt
+[4.886s] reading manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'
+[4.891s] writing manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'
+[4.894s] running build
+[4.895s] running build_py
+[4.895s] copying locomotion_core/rover_state_controller.py -> /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/build/lib/locomotion_core
+[4.898s] running install
+[4.898s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.899s]   warnings.warn(
+[4.900s] running install_lib
+[4.903s] copying /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/build/lib/locomotion_core/rover_state_controller.py -> /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.10/site-packages/locomotion_core
+[4.908s] byte-compiling /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.10/site-packages/locomotion_core/rover_state_controller.py to rover_state_controller.cpython-310.pyc
+[4.913s] running install_data
+[4.916s] running install_egg_info
+[4.927s] removing '/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.10/site-packages/locomotion_core-0.0.0-py3.10.egg-info' (and everything under it)
+[4.929s] Copying ../../build/locomotion_core/locomotion_core.egg-info to /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.10/site-packages/locomotion_core-0.0.0-py3.10.egg-info
+[4.935s] running install_scripts
+[5.013s] Installing cmd_roboteq script to /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/locomotion_core
+[5.014s] Installing drive_selector script to /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/locomotion_core
+[5.015s] Installing movebase_core script to /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/locomotion_core
+[5.016s] Installing rover_state_controller script to /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/locomotion_core
+[5.018s] writing list of installed files to '/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/install.log'
+[5.170s] Invoked command in '/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/locomotion_core' returned '0': PYTHONPATH=/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/prefix_override:/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locomotion_core build --build-base /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/build install --record /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/install.log --single-version-externally-managed

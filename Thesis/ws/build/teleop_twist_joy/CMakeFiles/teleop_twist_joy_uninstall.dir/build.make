@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/ws/src/teleop_twist_joy
+CMAKE_SOURCE_DIR = /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/teleop_twist_joy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vboxuser/ws/build/teleop_twist_joy
+CMAKE_BINARY_DIR = /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy
 
 # Utility rule file for teleop_twist_joy_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/teleop_twist_joy_uninstall.dir/compiler_depend.make
 include CMakeFiles/teleop_twist_joy_uninstall.dir/progress.make
 
 CMakeFiles/teleop_twist_joy_uninstall:
-	/usr/bin/cmake -P /home/vboxuser/ws/build/teleop_twist_joy/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 teleop_twist_joy_uninstall: CMakeFiles/teleop_twist_joy_uninstall
 teleop_twist_joy_uninstall: CMakeFiles/teleop_twist_joy_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/teleop_twist_joy_uninstall.dir/clean:
 .PHONY : CMakeFiles/teleop_twist_joy_uninstall.dir/clean
 
 CMakeFiles/teleop_twist_joy_uninstall.dir/depend:
-	cd /home/vboxuser/ws/build/teleop_twist_joy && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/ws/src/teleop_twist_joy /home/vboxuser/ws/src/teleop_twist_joy /home/vboxuser/ws/build/teleop_twist_joy /home/vboxuser/ws/build/teleop_twist_joy /home/vboxuser/ws/build/teleop_twist_joy/CMakeFiles/teleop_twist_joy_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/teleop_twist_joy /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/teleop_twist_joy /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy/CMakeFiles/teleop_twist_joy_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/teleop_twist_joy_uninstall.dir/depend
 

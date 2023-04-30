@@ -1,0 +1,43 @@
+[1.456s] Invoking command in '/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy -- -j4 -l4
+[1.922s] [35m[1mConsolidate compiler generated dependencies of target teleop_twist_joy[0m
+[2.112s] [ 50%] Built target teleop_twist_joy
+[2.181s] [35m[1mConsolidate compiler generated dependencies of target teleop_twist_joy_node[0m
+[2.267s] [100%] Built target teleop_twist_joy_node
+[2.310s] Invoked command in '/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy -- -j4 -l4
+[2.528s] Invoking command in '/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy
+[2.558s] -- Install configuration: ""
+[2.564s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so
+[2.570s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node
+[2.572s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/include
+[2.573s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/include/teleop_twist_joy
+[2.574s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy.hpp
+[2.575s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy_export.h
+[2.576s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/launch
+[2.577s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py
+[2.578s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/config
+[2.579s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml
+[2.581s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml
+[2.582s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml
+[2.583s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml
+[2.585s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml
+[2.586s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh
+[2.587s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv
+[2.588s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy
+[2.589s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy
+[2.590s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh
+[2.591s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv
+[2.591s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh
+[2.592s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv
+[2.592s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash
+[2.593s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh
+[2.593s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh
+[2.594s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv
+[2.596s] -- Installing: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv
+[2.597s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy
+[2.598s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy
+[2.599s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.600s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake
+[2.600s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake
+[2.601s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake
+[2.601s] -- Up-to-date: /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/package.xml
+[2.608s] Invoked command in '/home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy

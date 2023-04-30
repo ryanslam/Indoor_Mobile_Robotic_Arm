@@ -1,3 +1,0 @@
-[console_scripts]
-mynode = my_robot_ctrl.pynode:main
-

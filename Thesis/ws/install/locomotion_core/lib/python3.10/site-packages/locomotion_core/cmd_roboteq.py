@@ -20,20 +20,28 @@ class motor_driver(Node):
         self.inCmd = 0.0
         self.subscription = self.create_subscription(
             Int16,
-            'r4/du1/pwr',
-            self.cmd_callback,
+            'rov/m1/rpm',
+            self.cmd_callback_1,
+            5)
+
+        self.subscription = self.create_subscription(
+            Int16,
+            'rov/m2/rpm',
+            self.cmd_callback_2,
             5)
         self.subscription  # prevent unused variable warning
 
-    def move_motors(self, val):
-        payload1 = "!G 1 " + str(-val) + "_"
-        payload2 = "!G 2 " + str(val) + "_"
+    def move_motor(self, val, motor_num):
+        payload1 = "!G "+ str(motor_num) + " " + str(-val) + "_"
         roboteq_obj.write(str.encode(payload1))
-        roboteq_obj.write(str.encode(payload2))
 
-    def cmd_callback(self, msg):
+    def cmd_callback_1(self, msg):
         inCmd = msg.data
-        self.move_motors(inCmd)
+        self.move_motor(inCmd, 1)
+
+    def cmd_callback_2(self, msg):
+        inCmd = msg.data
+        self.move_motor(inCmd, 2)
 
 def main(args=None):
     rclpy.init(args=args)

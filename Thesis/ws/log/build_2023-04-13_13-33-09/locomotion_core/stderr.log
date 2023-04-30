@@ -1,5 +1,0 @@
-  File "/home/vboxuser/ws/install/locomotion_core/lib/python3.10/site-packages/locomotion_core/cmd_roboteq.py", line 19
-    global inCmd
-    ^^^^^^^^^^^^
-SyntaxError: name 'inCmd' is assigned to before global declaration
-

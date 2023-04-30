@@ -1,9 +1,0 @@
-/home/rslam/Desktop/Thesis/ws/src/build/robot_start/CMakeFiles/uninstall.dir
-/home/rslam/Desktop/Thesis/ws/src/build/robot_start/CMakeFiles/robot_start_uninstall.dir
-/home/rslam/Desktop/Thesis/ws/src/build/robot_start/CMakeFiles/test.dir
-/home/rslam/Desktop/Thesis/ws/src/build/robot_start/CMakeFiles/edit_cache.dir
-/home/rslam/Desktop/Thesis/ws/src/build/robot_start/CMakeFiles/rebuild_cache.dir
-/home/rslam/Desktop/Thesis/ws/src/build/robot_start/CMakeFiles/list_install_components.dir
-/home/rslam/Desktop/Thesis/ws/src/build/robot_start/CMakeFiles/install.dir
-/home/rslam/Desktop/Thesis/ws/src/build/robot_start/CMakeFiles/install/local.dir
-/home/rslam/Desktop/Thesis/ws/src/build/robot_start/CMakeFiles/install/strip.dir
