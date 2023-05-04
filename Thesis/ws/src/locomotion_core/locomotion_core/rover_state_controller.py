@@ -43,14 +43,15 @@ class get_move_cmds(Node):
         self.rover_modeC = "NEU_M"  # Assigned state of the rover.
         self.toggle_flag = 0     # if flag = 1; locked, flag = 0; free
 
-        self.pub_du1 = self.create_publisher(Int16, 'rov/m1/rpm', 5)
+
         timer_period = 0.1  # seconds
-        self.timer = self.create_timer(timer_period, self.du1_callback)
+
+        self.pub_du1 = self.create_publisher(Int16, 'rov/m1/rpm', 5)
+        self.timer = self.create_timer(timer_period, lambda msg: self.du_callback(msg, 0))
         self.i = 0
 
         self.pub_du2 = self.create_publisher(Int16, 'rov/m2/rpm', 5)
-        timer_period = 0.1  # seconds
-        self.timer = self.create_timer(timer_period, self.du2_callback)
+        self.timer = self.create_timer(timer_period, lambda msg: self.du_callback(msg, 1))
         self.i = 0
 
 
@@ -81,46 +82,44 @@ class get_move_cmds(Node):
         else:
             self.toggle_flag = 0
         
-    # Kinematic equation to define the indoor rover.
-    def kinematic_equation(self, radius, link_vector, velocity_vector):
-        # Link lengths.
-        l1 = self.link_vector[0]
-        l2 = self.link_vector[1]
+    # # Kinematic equation to define the indoor rover.
+    # def kinematic_equation(self, radius, link_vector, velocity_vector):
+    #     # Link lengths.
+    #     l1 = self.link_vector[0]
+    #     l2 = self.link_vector[1]
         
-        # Kinematic matrix.
-        kineMatrix = np.array([[1, 1, -(l1+l2)],
-                              [1, -1, (l1+l2)],
-                              [1, -1, -(l1+l2)],
-                              [1, 1, (l1+l2)]])
+    #     # Kinematic matrix.
+    #     kineMatrix = np.array([[1, 1, -(l1+l2)],
+    #                           [1, -1, (l1+l2)],
+    #                           [1, -1, -(l1+l2)],
+    #                           [1, 1, (l1+l2)]])
 
-        # Kinematic equation to retrieve angular velocity vector.
-        angular_vel_vector = 1/radius * np.dot(kineMatrix, velocity_vector)
+    #     # Kinematic equation to retrieve angular velocity vector.
+    #     angular_vel_vector = 1/radius * np.dot(kineMatrix, velocity_vector)
         
-        return angular_vel_vector
+    #     return angular_vel_vector
 
-    def move_cmd_callback(self, msg):
-        vel_vector = (msg.linear.x, msg.linear.y, msg.angular.z)
-        angular_vel_vector = self.kinematic_equation(self.radius, self.link_vector, vel_vector)
+    # def move_cmd_callback(self, msg):
+    #     vel_vector = (msg.linear.x, msg.linear.y, msg.angular.z)
+    #     angular_vel_vector = self.kinematic_equation(self.radius, self.link_vector, vel_vector)
 
-        # Write the code to publish the angular velocities to the roboteq drivers.
-        angular_to_rpm = (1/6)*angular_vel_vector
+    #     # Write the code to publish the angular velocities to the roboteq drivers.
+    #     angular_to_rpm = (1/6)*angular_vel_vector
 
-        self.rpm_vec = angular_to_rpm
+    #     self.rpm_vec = angular_to_rpm
 
 
-    def du1_callback(self):
-        global lx, az
+    def du_callback(self, msg, angular_ind):
         msg = Int16()
         msg.data = int(self.rpm_vec[0]*1000)
-        print(msg.data)
+
+        # Publish to all the motor drivers.
         self.pub_du1.publish(msg)
         self.i += 1
 
     def du2_callback(self):
-        global lx, az
         msg = Int16()
         msg.data = int(self.rpm_vec[1]*1000)
-        print(msg.data)
         self.pub_du2.publish(msg)
         self.i += 1
 

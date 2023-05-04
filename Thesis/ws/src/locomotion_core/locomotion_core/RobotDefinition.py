@@ -1,3 +1,5 @@
+##### Abstract class to define the physical parameters of a robot. #####
+
 from abc import (
   ABC,
   abstractmethod,
