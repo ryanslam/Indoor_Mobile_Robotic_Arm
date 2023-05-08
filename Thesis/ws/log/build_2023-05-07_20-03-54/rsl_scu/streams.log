@@ -1,0 +1,21 @@
+[1.975s] Invoking command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/rsl_scu': PYTHONPATH=/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/rsl_scu/prefix_override:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rsl_scu build --build-base /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/rsl_scu/build install --record /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/rsl_scu/install.log --install-scripts $base/lib/rsl_scu --single-version-externally-managed
+[2.394s] running egg_info
+[2.396s] writing ../../build/rsl_scu/rsl_scu.egg-info/PKG-INFO
+[2.398s] writing dependency_links to ../../build/rsl_scu/rsl_scu.egg-info/dependency_links.txt
+[2.398s] writing entry points to ../../build/rsl_scu/rsl_scu.egg-info/entry_points.txt
+[2.398s] writing requirements to ../../build/rsl_scu/rsl_scu.egg-info/requires.txt
+[2.399s] writing top-level names to ../../build/rsl_scu/rsl_scu.egg-info/top_level.txt
+[2.462s] reading manifest file '../../build/rsl_scu/rsl_scu.egg-info/SOURCES.txt'
+[2.464s] writing manifest file '../../build/rsl_scu/rsl_scu.egg-info/SOURCES.txt'
+[2.464s] running build
+[2.464s] running build_py
+[2.464s] running install
+[2.466s] running install_lib
+[2.469s] running install_data
+[2.470s] running install_egg_info
+[2.474s] removing '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/lib/python3.8/site-packages/rsl_scu-0.0.0-py3.8.egg-info' (and everything under it)
+[2.475s] Copying ../../build/rsl_scu/rsl_scu.egg-info to /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/lib/python3.8/site-packages/rsl_scu-0.0.0-py3.8.egg-info
+[2.477s] running install_scripts
+[2.513s] Installing rsl_joy script to /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/lib/rsl_scu
+[2.514s] writing list of installed files to '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/rsl_scu/install.log'
+[2.588s] Invoked command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/rsl_scu' returned '0': PYTHONPATH=/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/rsl_scu/prefix_override:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rsl_scu build --build-base /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/rsl_scu/build install --record /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/rsl_scu/install.log --install-scripts $base/lib/rsl_scu --single-version-externally-managed

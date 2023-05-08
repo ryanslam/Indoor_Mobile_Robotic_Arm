@@ -1,0 +1,5 @@
+  File "/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/RoverDescription.py", line 9
+    def __init__(self, name='RobArm', robot_measurement):
+                 ^
+SyntaxError: non-default argument follows default argument
+

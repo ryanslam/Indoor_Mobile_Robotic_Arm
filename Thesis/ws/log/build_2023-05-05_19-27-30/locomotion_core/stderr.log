@@ -1,0 +1,5 @@
+  File "/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/cmd_roboteq.py", line 43
+    self.subscription = self.create_subscription(. install/setup.bas
+                                                 ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,18 @@
+[0.000000] (-) TimerEvent: {}
+[0.000792] (locomotion_core) JobQueued: {'identifier': 'locomotion_core', 'dependencies': OrderedDict()}
+[0.001913] (rsl_scu) JobQueued: {'identifier': 'rsl_scu', 'dependencies': OrderedDict()}
+[0.002293] (teleop_twist_joy) JobQueued: {'identifier': 'teleop_twist_joy', 'dependencies': OrderedDict()}
+[0.003283] (locomotion_core) JobStarted: {'identifier': 'locomotion_core'}
+[0.045567] (rsl_scu) JobStarted: {'identifier': 'rsl_scu'}
+[0.075782] (teleop_twist_joy) JobStarted: {'identifier': 'teleop_twist_joy'}
+[0.100540] (-) TimerEvent: {}
+[0.201865] (-) TimerEvent: {}
+[0.209717] (locomotion_core) JobEnded: {'identifier': 'locomotion_core', 'rc': 0}
+[0.302229] (-) TimerEvent: {}
+[0.403587] (-) TimerEvent: {}
+[0.504512] (-) TimerEvent: {}
+[0.605123] (-) TimerEvent: {}
+[0.706655] (-) TimerEvent: {}
+[0.721329] (teleop_twist_joy) JobEnded: {'identifier': 'teleop_twist_joy', 'rc': 'SIGINT'}
+[0.723777] (rsl_scu) JobEnded: {'identifier': 'rsl_scu', 'rc': 'SIGINT'}
+[0.735057] (-) EventReactorShutdown: {}

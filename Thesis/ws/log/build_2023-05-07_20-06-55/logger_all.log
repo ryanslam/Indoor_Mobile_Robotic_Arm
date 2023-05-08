@@ -1,0 +1,337 @@
+[0.724s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.724s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff93f60d00>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff93f60d00>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff93f6d2b0>)
+[0.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.796s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.796s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.796s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.796s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.796s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.797s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion_core) by extensions ['ignore', 'ignore_ament_install']
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion_core) by extension 'ignore'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion_core) by extension 'ignore_ament_install'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion_core) by extensions ['colcon_pkg']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion_core) by extension 'colcon_pkg'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion_core) by extensions ['colcon_meta']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion_core) by extension 'colcon_meta'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion_core) by extensions ['ros']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion_core) by extension 'ros'
+[0.876s] DEBUG:colcon.colcon_core.package_identification:Package 'src/locomotion_core' with type 'ros.ament_python' and name 'locomotion_core'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/roboteq_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/roboteq_interface) by extension 'ignore'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/roboteq_interface) by extension 'ignore_ament_install'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/roboteq_interface) by extensions ['colcon_pkg']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/roboteq_interface) by extension 'colcon_pkg'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/roboteq_interface) by extensions ['colcon_meta']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/roboteq_interface) by extension 'colcon_meta'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/roboteq_interface) by extensions ['ros']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/roboteq_interface) by extension 'ros'
+[0.880s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roboteq_interface' with type 'ros.ament_cmake' and name 'roboteq_interface'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsl_scu) by extensions ['ignore', 'ignore_ament_install']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsl_scu) by extension 'ignore'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsl_scu) by extension 'ignore_ament_install'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsl_scu) by extensions ['colcon_pkg']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsl_scu) by extension 'colcon_pkg'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsl_scu) by extensions ['colcon_meta']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsl_scu) by extension 'colcon_meta'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsl_scu) by extensions ['ros']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsl_scu) by extension 'ros'
+[0.882s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rsl_scu' with type 'ros.ament_python' and name 'rsl_scu'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extensions ['ignore', 'ignore_ament_install']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'ignore'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'ignore_ament_install'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extensions ['colcon_pkg']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'colcon_pkg'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extensions ['colcon_meta']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'colcon_meta'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extensions ['ros']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'ros'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extensions ['cmake', 'python']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'cmake'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'python'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extensions ['python_setup_py']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'python_setup_py'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['ignore', 'ignore_ament_install']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'ignore'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'ignore_ament_install'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['colcon_pkg']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'colcon_pkg'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['colcon_meta']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'colcon_meta'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['ros']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'ros'
+[0.887s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_twist_joy' with type 'ros.ament_cmake' and name 'teleop_twist_joy'
+[0.887s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.887s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.887s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.888s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.888s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.939s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.939s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.946s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install
+[0.950s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.953s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.101s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'teleop_twist_joy' is in: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy, /opt/ros/foxy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding teleop_twist_joy
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.104s] Level 5:colcon.colcon_core.verb:set package 'locomotion_core' build argument 'cmake_args' from command line to 'None'
+[1.104s] Level 5:colcon.colcon_core.verb:set package 'locomotion_core' build argument 'cmake_target' from command line to 'None'
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'locomotion_core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'locomotion_core' build argument 'cmake_clean_cache' from command line to 'False'
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'locomotion_core' build argument 'cmake_clean_first' from command line to 'False'
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'locomotion_core' build argument 'cmake_force_configure' from command line to 'False'
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'locomotion_core' build argument 'ament_cmake_args' from command line to 'None'
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'locomotion_core' build argument 'catkin_cmake_args' from command line to 'None'
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'locomotion_core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.105s] DEBUG:colcon.colcon_core.verb:Building package 'locomotion_core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core', 'merge_install': False, 'path': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/locomotion_core', 'symlink_install': False, 'test_result_base': None}
+[1.108s] Level 5:colcon.colcon_core.verb:set package 'roboteq_interface' build argument 'cmake_args' from command line to 'None'
+[1.108s] Level 5:colcon.colcon_core.verb:set package 'roboteq_interface' build argument 'cmake_target' from command line to 'None'
+[1.108s] Level 5:colcon.colcon_core.verb:set package 'roboteq_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.109s] Level 5:colcon.colcon_core.verb:set package 'roboteq_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[1.109s] Level 5:colcon.colcon_core.verb:set package 'roboteq_interface' build argument 'cmake_clean_first' from command line to 'False'
+[1.109s] Level 5:colcon.colcon_core.verb:set package 'roboteq_interface' build argument 'cmake_force_configure' from command line to 'False'
+[1.109s] Level 5:colcon.colcon_core.verb:set package 'roboteq_interface' build argument 'ament_cmake_args' from command line to 'None'
+[1.109s] Level 5:colcon.colcon_core.verb:set package 'roboteq_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[1.109s] Level 5:colcon.colcon_core.verb:set package 'roboteq_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.109s] DEBUG:colcon.colcon_core.verb:Building package 'roboteq_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface', 'merge_install': False, 'path': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/roboteq_interface', 'symlink_install': False, 'test_result_base': None}
+[1.111s] Level 5:colcon.colcon_core.verb:set package 'rsl_scu' build argument 'cmake_args' from command line to 'None'
+[1.111s] Level 5:colcon.colcon_core.verb:set package 'rsl_scu' build argument 'cmake_target' from command line to 'None'
+[1.111s] Level 5:colcon.colcon_core.verb:set package 'rsl_scu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.111s] Level 5:colcon.colcon_core.verb:set package 'rsl_scu' build argument 'cmake_clean_cache' from command line to 'False'
+[1.112s] Level 5:colcon.colcon_core.verb:set package 'rsl_scu' build argument 'cmake_clean_first' from command line to 'False'
+[1.112s] Level 5:colcon.colcon_core.verb:set package 'rsl_scu' build argument 'cmake_force_configure' from command line to 'False'
+[1.112s] Level 5:colcon.colcon_core.verb:set package 'rsl_scu' build argument 'ament_cmake_args' from command line to 'None'
+[1.112s] Level 5:colcon.colcon_core.verb:set package 'rsl_scu' build argument 'catkin_cmake_args' from command line to 'None'
+[1.112s] Level 5:colcon.colcon_core.verb:set package 'rsl_scu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.112s] DEBUG:colcon.colcon_core.verb:Building package 'rsl_scu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/rsl_scu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu', 'merge_install': False, 'path': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/rsl_scu', 'symlink_install': False, 'test_result_base': None}
+[1.114s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_args' from command line to 'None'
+[1.114s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_target' from command line to 'None'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_clean_cache' from command line to 'False'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_clean_first' from command line to 'False'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_force_configure' from command line to 'False'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'ament_cmake_args' from command line to 'None'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'catkin_cmake_args' from command line to 'None'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.115s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_twist_joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy', 'merge_install': False, 'path': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/teleop_twist_joy', 'symlink_install': False, 'test_result_base': None}
+[1.117s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.126s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.127s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/locomotion_core' with build type 'ament_python'
+[1.128s] Level 1:colcon.colcon_core.shell:create_environment_hook('locomotion_core', 'ament_prefix_path')
+[1.149s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/share/locomotion_core/hook/ament_prefix_path.ps1'
+[1.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/share/locomotion_core/hook/ament_prefix_path.dsv'
+[1.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/share/locomotion_core/hook/ament_prefix_path.sh'
+[1.163s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.164s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.235s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/roboteq_interface' with build type 'ament_cmake'
+[1.236s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/roboteq_interface'
+[1.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.242s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.264s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/rsl_scu' with build type 'ament_python'
+[1.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('rsl_scu', 'ament_prefix_path')
+[1.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/share/rsl_scu/hook/ament_prefix_path.ps1'
+[1.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/share/rsl_scu/hook/ament_prefix_path.dsv'
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/share/rsl_scu/hook/ament_prefix_path.sh'
+[1.278s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.278s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.294s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/teleop_twist_joy' with build type 'ament_cmake'
+[1.295s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/teleop_twist_joy'
+[1.299s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.299s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.865s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/locomotion_core'
+[1.872s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.873s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --build /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface -- -j6 -l6
+[2.422s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/rsl_scu'
+[2.426s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.426s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --build /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy -- -j6 -l6
+[2.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --build /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface -- -j6 -l6
+[2.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --install /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface
+[2.717s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roboteq_interface)
+[2.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --install /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface
+[2.746s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface' for CMake module files
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface' for CMake config files
+[2.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('roboteq_interface', 'cmake_prefix_path')
+[2.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/hook/cmake_prefix_path.ps1'
+[2.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/hook/cmake_prefix_path.dsv'
+[2.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/hook/cmake_prefix_path.sh'
+[2.769s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/bin'
+[2.769s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/pkgconfig/roboteq_interface.pc'
+[2.770s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/python3.8/site-packages'
+[2.770s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/bin'
+[2.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/package.ps1'
+[2.775s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/package.dsv'
+[2.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/package.sh'
+[2.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/package.bash'
+[2.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/package.zsh'
+[2.782s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/colcon-core/packages/roboteq_interface)
+[2.940s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roboteq_interface)
+[2.950s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface' for CMake module files
+[2.951s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface' for CMake config files
+[2.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('roboteq_interface', 'cmake_prefix_path')
+[2.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/hook/cmake_prefix_path.ps1'
+[2.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/hook/cmake_prefix_path.dsv'
+[2.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/hook/cmake_prefix_path.sh'
+[2.960s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/bin'
+[2.961s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/pkgconfig/roboteq_interface.pc'
+[2.979s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/python3.8/site-packages'
+[2.980s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/bin'
+[2.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/package.ps1'
+[2.987s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/package.dsv'
+[2.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/package.sh'
+[2.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/package.bash'
+[2.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/package.zsh'
+[2.992s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/colcon-core/packages/roboteq_interface)
+[2.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --build /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy -- -j6 -l6
+[3.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --install /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy
+[3.200s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_twist_joy)
+[3.206s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy' for CMake module files
+[3.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --install /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy
+[3.212s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy' for CMake config files
+[3.222s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_joy', 'cmake_prefix_path')
+[3.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.ps1'
+[3.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.dsv'
+[3.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.sh'
+[3.242s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/lib'
+[3.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_joy', 'ld_library_path_lib')
+[3.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.ps1'
+[3.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.dsv'
+[3.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.sh'
+[3.248s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/bin'
+[3.249s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/lib/pkgconfig/teleop_twist_joy.pc'
+[3.249s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/lib/python3.8/site-packages'
+[3.250s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/bin'
+[3.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/package.ps1'
+[3.254s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv'
+[3.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/package.sh'
+[3.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/package.bash'
+[3.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/package.zsh'
+[3.257s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/colcon-core/packages/teleop_twist_joy)
+[3.380s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_twist_joy)
+[3.385s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy' for CMake module files
+[3.387s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy' for CMake config files
+[3.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_joy', 'cmake_prefix_path')
+[3.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.ps1'
+[3.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.dsv'
+[3.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.sh'
+[3.410s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/lib'
+[3.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_joy', 'ld_library_path_lib')
+[3.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.ps1'
+[3.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.dsv'
+[3.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.sh'
+[3.419s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/bin'
+[3.419s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/lib/pkgconfig/teleop_twist_joy.pc'
+[3.420s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/lib/python3.8/site-packages'
+[3.422s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/bin'
+[3.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/package.ps1'
+[3.426s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv'
+[3.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/package.sh'
+[3.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/package.bash'
+[3.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/package.zsh'
+[3.430s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/colcon-core/packages/teleop_twist_joy)
+[3.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/rsl_scu': PYTHONPATH=/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/rsl_scu/prefix_override:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rsl_scu build --build-base /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/rsl_scu/build install --record /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/rsl_scu/install.log --install-scripts $base/lib/rsl_scu --single-version-externally-managed
+[3.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/locomotion_core': PYTHONPATH=/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/prefix_override:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locomotion_core build --build-base /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/build install --record /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/install.log --single-version-externally-managed
+[4.530s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core' for CMake module files
+[4.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/locomotion_core' returned '0': PYTHONPATH=/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/prefix_override:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locomotion_core build --build-base /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/build install --record /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/install.log --single-version-externally-managed
+[4.543s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core' for CMake config files
+[4.546s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib'
+[4.546s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/bin'
+[4.547s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/pkgconfig/locomotion_core.pc'
+[4.547s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages'
+[4.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('locomotion_core', 'pythonpath')
+[4.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/share/locomotion_core/hook/pythonpath.ps1'
+[4.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/share/locomotion_core/hook/pythonpath.dsv'
+[4.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/share/locomotion_core/hook/pythonpath.sh'
+[4.568s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/bin'
+[4.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(locomotion_core)
+[4.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/share/locomotion_core/package.ps1'
+[4.574s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/share/locomotion_core/package.dsv'
+[4.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/share/locomotion_core/package.sh'
+[4.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/share/locomotion_core/package.bash'
+[4.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/share/locomotion_core/package.zsh'
+[4.580s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/share/colcon-core/packages/locomotion_core)
+[4.589s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu' for CMake module files
+[4.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/rsl_scu' returned '0': PYTHONPATH=/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/rsl_scu/prefix_override:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rsl_scu build --build-base /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/rsl_scu/build install --record /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/rsl_scu/install.log --install-scripts $base/lib/rsl_scu --single-version-externally-managed
+[4.592s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu' for CMake config files
+[4.593s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/lib'
+[4.593s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/bin'
+[4.594s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/lib/pkgconfig/rsl_scu.pc'
+[4.594s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/lib/python3.8/site-packages'
+[4.594s] Level 1:colcon.colcon_core.shell:create_environment_hook('rsl_scu', 'pythonpath')
+[4.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/share/rsl_scu/hook/pythonpath.ps1'
+[4.599s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/share/rsl_scu/hook/pythonpath.dsv'
+[4.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/share/rsl_scu/hook/pythonpath.sh'
+[4.602s] Level 1:colcon.colcon_core.environment:checking '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/bin'
+[4.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rsl_scu)
+[4.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/share/rsl_scu/package.ps1'
+[4.608s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/share/rsl_scu/package.dsv'
+[4.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/share/rsl_scu/package.sh'
+[4.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/share/rsl_scu/package.bash'
+[4.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/share/rsl_scu/package.zsh'
+[4.611s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu/share/colcon-core/packages/rsl_scu)
+[4.611s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.613s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.613s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.614s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.634s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.635s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.635s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.677s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.680s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/local_setup.ps1'
+[4.684s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/_local_setup_util_ps1.py'
+[4.687s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/setup.ps1'
+[4.697s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/local_setup.sh'
+[4.699s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/_local_setup_util_sh.py'
+[4.701s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/setup.sh'
+[4.705s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/local_setup.bash'
+[4.706s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/setup.bash'
+[4.710s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/local_setup.zsh'
+[4.711s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/setup.zsh'

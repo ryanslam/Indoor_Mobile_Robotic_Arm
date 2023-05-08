@@ -1,0 +1,46 @@
+[0.535s] Invoking command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/roboteq_interface -DCMAKE_INSTALL_PREFIX=/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface
+[1.172s] -- The C compiler identification is GNU 9.4.0
+[1.971s] -- The CXX compiler identification is GNU 9.4.0
+[1.988s] -- Check for working C compiler: /usr/bin/cc
+[2.251s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.393s] -- Detecting C compiler ABI info
+[2.646s] -- Detecting C compiler ABI info - done
+[2.808s] -- Detecting C compile features
+[2.809s] -- Detecting C compile features - done
+[2.816s] -- Check for working CXX compiler: /usr/bin/c++
+[3.089s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.092s] -- Detecting CXX compiler ABI info
+[3.485s] -- Detecting CXX compiler ABI info - done
+[3.519s] -- Detecting CXX compile features
+[3.520s] -- Detecting CXX compile features - done
+[3.666s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.859s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.860s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.808s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.131s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.136s] -- Added test 'lint_cmake' to check CMake code style
+[5.139s] -- Added test 'xmllint' to check XML markup files
+[5.145s] -- Configuring done
+[5.150s] -- Generating done
+[5.152s] -- Build files have been written to: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface
+[5.166s] Invoked command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/roboteq_interface -DCMAKE_INSTALL_PREFIX=/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface
+[5.177s] Invoking command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --build /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface -- -j6 -l6
+[5.284s] Invoked command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --build /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface -- -j6 -l6
+[5.356s] Invoking command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --install /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface
+[5.381s] -- Install configuration: ""
+[5.382s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/ament_index/resource_index/package_run_dependencies/roboteq_interface
+[5.382s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/ament_index/resource_index/parent_prefix_path/roboteq_interface
+[5.382s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/environment/ament_prefix_path.sh
+[5.383s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/environment/ament_prefix_path.dsv
+[5.383s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/environment/path.sh
+[5.384s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/environment/path.dsv
+[5.384s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/local_setup.bash
+[5.384s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/local_setup.sh
+[5.384s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/local_setup.zsh
+[5.385s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/local_setup.dsv
+[5.385s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/package.dsv
+[5.385s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/ament_index/resource_index/packages/roboteq_interface
+[5.386s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/cmake/roboteq_interfaceConfig.cmake
+[5.386s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/cmake/roboteq_interfaceConfig-version.cmake
+[5.386s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/package.xml
+[5.401s] Invoked command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --install /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface

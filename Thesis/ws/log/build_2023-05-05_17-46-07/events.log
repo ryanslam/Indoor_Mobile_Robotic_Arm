@@ -1,0 +1,459 @@
+[0.000000] (-) TimerEvent: {}
+[0.000648] (locomotion_core) JobQueued: {'identifier': 'locomotion_core', 'dependencies': OrderedDict()}
+[0.001047] (teleop_twist_joy) JobQueued: {'identifier': 'teleop_twist_joy', 'dependencies': OrderedDict()}
+[0.001784] (locomotion_core) JobStarted: {'identifier': 'locomotion_core'}
+[0.037863] (teleop_twist_joy) JobStarted: {'identifier': 'teleop_twist_joy'}
+[0.099269] (-) TimerEvent: {}
+[0.200415] (-) TimerEvent: {}
+[0.301332] (-) TimerEvent: {}
+[0.402277] (-) TimerEvent: {}
+[0.503154] (-) TimerEvent: {}
+[0.586222] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'cmake'}
+[0.588031] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/teleop_twist_joy', '-DCMAKE_INSTALL_PREFIX=/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy'], 'cwd': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rsl'), ('SSH_AGENT_PID', '2134'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rsl'), ('OLDPWD', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1656'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rsl'), ('JOURNAL_STREAM', '7:48908'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rsl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/rsl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rsl-desktop:@/tmp/.ICE-unix/2182,unix/rsl-desktop:/tmp/.ICE-unix/2182'), ('INVOCATION_ID', 'e565fc982519493790b99d9abab2c52e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6fe359c5_7acc_4b1d_ad88_8cd1997681c4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy')]), 'shell': False}
+[0.603782] (-) TimerEvent: {}
+[0.705322] (-) TimerEvent: {}
+[0.745307] (teleop_twist_joy) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.805498] (-) TimerEvent: {}
+[0.906481] (-) TimerEvent: {}
+[0.937643] (teleop_twist_joy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.946841] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.006715] (-) TimerEvent: {}
+[1.107703] (-) TimerEvent: {}
+[1.185450] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.187980] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.207909] (-) TimerEvent: {}
+[1.308752] (-) TimerEvent: {}
+[1.409670] (-) TimerEvent: {}
+[1.439721] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.462016] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.462973] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.467439] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.510109] (-) TimerEvent: {}
+[1.578125] (locomotion_core) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/locomotion_core', 'build', '--build-base', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/build', 'install', '--record', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/install.log', '--single-version-externally-managed'], 'cwd': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/locomotion_core', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rsl', 'SSH_AGENT_PID': '2134', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/rsl', 'OLDPWD': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1656', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'rsl', 'JOURNAL_STREAM': '7:48908', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rsl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/rsl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/rsl-desktop:@/tmp/.ICE-unix/2182,unix/rsl-desktop:/tmp/.ICE-unix/2182', 'INVOCATION_ID': 'e565fc982519493790b99d9abab2c52e', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6fe359c5_7acc_4b1d_ad88_8cd1997681c4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.81', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/prefix_override:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy'}, 'shell': False}
+[1.610294] (-) TimerEvent: {}
+[1.711299] (-) TimerEvent: {}
+[1.735753] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.737942] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.811677] (-) TimerEvent: {}
+[1.912711] (-) TimerEvent: {}
+[2.000579] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.012768] (-) TimerEvent: {}
+[2.021067] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.022037] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.027146] (teleop_twist_joy) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.058378] (locomotion_core) StdoutLine: {'line': b'running egg_info\n'}
+[2.059630] (locomotion_core) StdoutLine: {'line': b'creating ../../build/locomotion_core/locomotion_core.egg-info\n'}
+[2.060079] (locomotion_core) StdoutLine: {'line': b'writing ../../build/locomotion_core/locomotion_core.egg-info/PKG-INFO\n'}
+[2.060875] (locomotion_core) StdoutLine: {'line': b'writing dependency_links to ../../build/locomotion_core/locomotion_core.egg-info/dependency_links.txt\n'}
+[2.061277] (locomotion_core) StdoutLine: {'line': b'writing entry points to ../../build/locomotion_core/locomotion_core.egg-info/entry_points.txt\n'}
+[2.061665] (locomotion_core) StdoutLine: {'line': b'writing requirements to ../../build/locomotion_core/locomotion_core.egg-info/requires.txt\n'}
+[2.061986] (locomotion_core) StdoutLine: {'line': b'writing top-level names to ../../build/locomotion_core/locomotion_core.egg-info/top_level.txt\n'}
+[2.065146] (locomotion_core) StdoutLine: {'line': b"writing manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'\n"}
+[2.082503] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.082943] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.112891] (-) TimerEvent: {}
+[2.132845] (locomotion_core) StdoutLine: {'line': b"reading manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'\n"}
+[2.134760] (locomotion_core) StdoutLine: {'line': b"writing manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'\n"}
+[2.135198] (locomotion_core) StdoutLine: {'line': b'running build\n'}
+[2.135532] (locomotion_core) StdoutLine: {'line': b'running build_py\n'}
+[2.135850] (locomotion_core) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/build\n'}
+[2.136153] (locomotion_core) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/build/lib\n'}
+[2.136631] (locomotion_core) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/build/lib/locomotion_core\n'}
+[2.136953] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/RoverDescription.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/build/lib/locomotion_core\n'}
+[2.137219] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/RobotDefinition.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/build/lib/locomotion_core\n'}
+[2.137511] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/__init__.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/build/lib/locomotion_core\n'}
+[2.137887] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/rover_state_controller.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/build/lib/locomotion_core\n'}
+[2.138261] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/cmd_roboteq.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/build/lib/locomotion_core\n'}
+[2.138505] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/driver_node.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/build/lib/locomotion_core\n'}
+[2.138803] (locomotion_core) StdoutLine: {'line': b'running install\n'}
+[2.142191] (locomotion_core) StdoutLine: {'line': b'running install_lib\n'}
+[2.144761] (locomotion_core) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[2.145121] (locomotion_core) StdoutLine: {'line': b'copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/build/lib/locomotion_core/RoverDescription.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[2.145515] (locomotion_core) StdoutLine: {'line': b'copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/build/lib/locomotion_core/RobotDefinition.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[2.145867] (locomotion_core) StdoutLine: {'line': b'copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/build/lib/locomotion_core/__init__.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[2.146327] (locomotion_core) StdoutLine: {'line': b'copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/build/lib/locomotion_core/rover_state_controller.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[2.146653] (locomotion_core) StdoutLine: {'line': b'copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/build/lib/locomotion_core/cmd_roboteq.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[2.146925] (locomotion_core) StdoutLine: {'line': b'copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/build/lib/locomotion_core/driver_node.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[2.147705] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/RoverDescription.py to RoverDescription.cpython-38.pyc\n'}
+[2.150797] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/RobotDefinition.py to RobotDefinition.cpython-38.pyc\n'}
+[2.151378] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/__init__.py to __init__.cpython-38.pyc\n'}
+[2.151776] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/rover_state_controller.py to rover_state_controller.cpython-38.pyc\n'}
+[2.153528] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/cmd_roboteq.py to cmd_roboteq.cpython-38.pyc\n'}
+[2.154604] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/driver_node.py to driver_node.cpython-38.pyc\n'}
+[2.155237] (locomotion_core) StdoutLine: {'line': b'running install_data\n'}
+[2.171351] (locomotion_core) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/share/ament_index\n'}
+[2.171835] (locomotion_core) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/share/ament_index/resource_index\n'}
+[2.172111] (locomotion_core) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/share/ament_index/resource_index/packages\n'}
+[2.172364] (locomotion_core) StdoutLine: {'line': b'copying resource/locomotion_core -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/share/ament_index/resource_index/packages\n'}
+[2.172669] (locomotion_core) StdoutLine: {'line': b'copying package.xml -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/share/locomotion_core\n'}
+[2.172909] (locomotion_core) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.173137] (locomotion_core) StdoutLine: {'line': b'Copying ../../build/locomotion_core/locomotion_core.egg-info to /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core-0.0.0-py3.8.egg-info\n'}
+[2.173376] (locomotion_core) StdoutLine: {'line': b'running install_scripts\n'}
+[2.207504] (locomotion_core) StdoutLine: {'line': b'Installing cmd_roboteq script to /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/locomotion_core\n'}
+[2.208083] (locomotion_core) StdoutLine: {'line': b'Installing drive_selector script to /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/locomotion_core\n'}
+[2.208545] (locomotion_core) StdoutLine: {'line': b'Installing movebase_core script to /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/locomotion_core\n'}
+[2.208883] (locomotion_core) StdoutLine: {'line': b'Installing rover_state_controller script to /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/locomotion_core\n'}
+[2.209576] (locomotion_core) StdoutLine: {'line': b"writing list of installed files to '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/locomotion_core/install.log'\n"}
+[2.212999] (-) TimerEvent: {}
+[2.311240] (locomotion_core) CommandEnded: {'returncode': 0}
+[2.314950] (-) TimerEvent: {}
+[2.362038] (locomotion_core) JobEnded: {'identifier': 'locomotion_core', 'rc': 0}
+[2.415171] (-) TimerEvent: {}
+[2.516115] (-) TimerEvent: {}
+[2.525696] (teleop_twist_joy) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[2.581418] (teleop_twist_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.592844] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.616170] (-) TimerEvent: {}
+[2.716904] (-) TimerEvent: {}
+[2.774901] (teleop_twist_joy) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.817130] (-) TimerEvent: {}
+[2.833788] (teleop_twist_joy) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.917434] (-) TimerEvent: {}
+[2.989085] (teleop_twist_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.017503] (-) TimerEvent: {}
+[3.118194] (-) TimerEvent: {}
+[3.140888] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.217810] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.218260] (-) TimerEvent: {}
+[3.220448] (teleop_twist_joy) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.222379] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.318593] (-) TimerEvent: {}
+[3.419674] (-) TimerEvent: {}
+[3.457536] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.458671] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.519944] (-) TimerEvent: {}
+[3.621112] (-) TimerEvent: {}
+[3.722384] (-) TimerEvent: {}
+[3.823471] (-) TimerEvent: {}
+[3.849286] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[3.850080] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.923756] (-) TimerEvent: {}
+[4.024809] (-) TimerEvent: {}
+[4.125867] (-) TimerEvent: {}
+[4.214269] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.215307] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.225951] (-) TimerEvent: {}
+[4.326776] (-) TimerEvent: {}
+[4.427828] (-) TimerEvent: {}
+[4.457518] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.461973] (teleop_twist_joy) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.527989] (-) TimerEvent: {}
+[4.628793] (-) TimerEvent: {}
+[4.717962] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[4.728940] (-) TimerEvent: {}
+[4.825281] (teleop_twist_joy) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[4.829018] (-) TimerEvent: {}
+[4.929644] (-) TimerEvent: {}
+[4.956842] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[5.029962] (-) TimerEvent: {}
+[5.131009] (-) TimerEvent: {}
+[5.219065] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[5.221322] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[5.231219] (-) TimerEvent: {}
+[5.332270] (-) TimerEvent: {}
+[5.433303] (-) TimerEvent: {}
+[5.476507] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success\n'}
+[5.477803] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[5.533537] (-) TimerEvent: {}
+[5.634639] (-) TimerEvent: {}
+[5.735716] (-) TimerEvent: {}
+[5.744787] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[5.759471] (teleop_twist_joy) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.835924] (-) TimerEvent: {}
+[5.937046] (-) TimerEvent: {}
+[5.952821] (teleop_twist_joy) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[6.002613] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[6.015250] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[6.016012] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.016309] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[6.016571] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[6.037103] (-) TimerEvent: {}
+[6.063736] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[6.111139] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.111972] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/teleop_twist_joy/include\n'}
+[6.112273] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.113216] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.115593] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.117162] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[6.118720] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.130056] (teleop_twist_joy) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.137221] (-) TimerEvent: {}
+[6.157565] (teleop_twist_joy) StdoutLine: {'line': b'-- Generating done\n'}
+[6.161693] (teleop_twist_joy) StdoutLine: {'line': b'-- Build files have been written to: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy\n'}
+[6.199097] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[6.201722] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'build'}
+[6.203725] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy', '--', '-j6', '-l6'], 'cwd': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rsl'), ('SSH_AGENT_PID', '2134'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rsl'), ('OLDPWD', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1656'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rsl'), ('JOURNAL_STREAM', '7:48908'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rsl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/rsl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rsl-desktop:@/tmp/.ICE-unix/2182,unix/rsl-desktop:/tmp/.ICE-unix/2182'), ('INVOCATION_ID', 'e565fc982519493790b99d9abab2c52e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6fe359c5_7acc_4b1d_ad88_8cd1997681c4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy')]), 'shell': False}
+[6.237452] (-) TimerEvent: {}
+[6.313870] (teleop_twist_joy) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target teleop_twist_joy\x1b[0m\n'}
+[6.337537] (-) TimerEvent: {}
+[6.397344] (teleop_twist_joy) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/teleop_twist_joy.dir/src/teleop_twist_joy.cpp.o\x1b[0m\n'}
+[6.437767] (-) TimerEvent: {}
+[6.538780] (-) TimerEvent: {}
+[6.640006] (-) TimerEvent: {}
+[6.741154] (-) TimerEvent: {}
+[6.842310] (-) TimerEvent: {}
+[6.943443] (-) TimerEvent: {}
+[7.044405] (-) TimerEvent: {}
+[7.145284] (-) TimerEvent: {}
+[7.246176] (-) TimerEvent: {}
+[7.347058] (-) TimerEvent: {}
+[7.447873] (-) TimerEvent: {}
+[7.548469] (-) TimerEvent: {}
+[7.648951] (-) TimerEvent: {}
+[7.749458] (-) TimerEvent: {}
+[7.850054] (-) TimerEvent: {}
+[7.950572] (-) TimerEvent: {}
+[8.051073] (-) TimerEvent: {}
+[8.151841] (-) TimerEvent: {}
+[8.252461] (-) TimerEvent: {}
+[8.353122] (-) TimerEvent: {}
+[8.453787] (-) TimerEvent: {}
+[8.554428] (-) TimerEvent: {}
+[8.655062] (-) TimerEvent: {}
+[8.755859] (-) TimerEvent: {}
+[8.857030] (-) TimerEvent: {}
+[8.958201] (-) TimerEvent: {}
+[9.059296] (-) TimerEvent: {}
+[9.160301] (-) TimerEvent: {}
+[9.260977] (-) TimerEvent: {}
+[9.361594] (-) TimerEvent: {}
+[9.462324] (-) TimerEvent: {}
+[9.563372] (-) TimerEvent: {}
+[9.664520] (-) TimerEvent: {}
+[9.813072] (-) TimerEvent: {}
+[9.914158] (-) TimerEvent: {}
+[10.015429] (-) TimerEvent: {}
+[10.116473] (-) TimerEvent: {}
+[10.217485] (-) TimerEvent: {}
+[10.318554] (-) TimerEvent: {}
+[10.419630] (-) TimerEvent: {}
+[10.520627] (-) TimerEvent: {}
+[10.621527] (-) TimerEvent: {}
+[10.722378] (-) TimerEvent: {}
+[10.823169] (-) TimerEvent: {}
+[10.923926] (-) TimerEvent: {}
+[11.024623] (-) TimerEvent: {}
+[11.125287] (-) TimerEvent: {}
+[11.225930] (-) TimerEvent: {}
+[11.326551] (-) TimerEvent: {}
+[11.427195] (-) TimerEvent: {}
+[11.527836] (-) TimerEvent: {}
+[11.628453] (-) TimerEvent: {}
+[11.729097] (-) TimerEvent: {}
+[11.829734] (-) TimerEvent: {}
+[11.930354] (-) TimerEvent: {}
+[12.030986] (-) TimerEvent: {}
+[12.131708] (-) TimerEvent: {}
+[12.232689] (-) TimerEvent: {}
+[12.333669] (-) TimerEvent: {}
+[12.434718] (-) TimerEvent: {}
+[12.535788] (-) TimerEvent: {}
+[12.636900] (-) TimerEvent: {}
+[12.737947] (-) TimerEvent: {}
+[12.838839] (-) TimerEvent: {}
+[12.939413] (-) TimerEvent: {}
+[13.039898] (-) TimerEvent: {}
+[13.140367] (-) TimerEvent: {}
+[13.240858] (-) TimerEvent: {}
+[13.341381] (-) TimerEvent: {}
+[13.441988] (-) TimerEvent: {}
+[13.542644] (-) TimerEvent: {}
+[13.643408] (-) TimerEvent: {}
+[13.744452] (-) TimerEvent: {}
+[13.845524] (-) TimerEvent: {}
+[13.946606] (-) TimerEvent: {}
+[14.047624] (-) TimerEvent: {}
+[14.148526] (-) TimerEvent: {}
+[14.249278] (-) TimerEvent: {}
+[14.350272] (-) TimerEvent: {}
+[14.450856] (-) TimerEvent: {}
+[14.551363] (-) TimerEvent: {}
+[14.651899] (-) TimerEvent: {}
+[14.752528] (-) TimerEvent: {}
+[14.853350] (-) TimerEvent: {}
+[14.994341] (-) TimerEvent: {}
+[15.095469] (-) TimerEvent: {}
+[15.196638] (-) TimerEvent: {}
+[15.297864] (-) TimerEvent: {}
+[15.399052] (-) TimerEvent: {}
+[15.500249] (-) TimerEvent: {}
+[15.601484] (-) TimerEvent: {}
+[15.702749] (-) TimerEvent: {}
+[15.804292] (-) TimerEvent: {}
+[15.905483] (-) TimerEvent: {}
+[16.006642] (-) TimerEvent: {}
+[16.107781] (-) TimerEvent: {}
+[16.208948] (-) TimerEvent: {}
+[16.310159] (-) TimerEvent: {}
+[16.411345] (-) TimerEvent: {}
+[16.512539] (-) TimerEvent: {}
+[16.613780] (-) TimerEvent: {}
+[16.715007] (-) TimerEvent: {}
+[16.816213] (-) TimerEvent: {}
+[16.917361] (-) TimerEvent: {}
+[17.018846] (-) TimerEvent: {}
+[17.120032] (-) TimerEvent: {}
+[17.221183] (-) TimerEvent: {}
+[17.322318] (-) TimerEvent: {}
+[17.423349] (-) TimerEvent: {}
+[17.524417] (-) TimerEvent: {}
+[17.625433] (-) TimerEvent: {}
+[17.726526] (-) TimerEvent: {}
+[17.827564] (-) TimerEvent: {}
+[17.928459] (-) TimerEvent: {}
+[18.029300] (-) TimerEvent: {}
+[18.130140] (-) TimerEvent: {}
+[18.230950] (-) TimerEvent: {}
+[18.331740] (-) TimerEvent: {}
+[18.432520] (-) TimerEvent: {}
+[18.533322] (-) TimerEvent: {}
+[18.633952] (-) TimerEvent: {}
+[18.734751] (-) TimerEvent: {}
+[18.835683] (-) TimerEvent: {}
+[18.936596] (-) TimerEvent: {}
+[19.037534] (-) TimerEvent: {}
+[19.138531] (-) TimerEvent: {}
+[19.239490] (-) TimerEvent: {}
+[19.340418] (-) TimerEvent: {}
+[19.441354] (-) TimerEvent: {}
+[19.542305] (-) TimerEvent: {}
+[19.643281] (-) TimerEvent: {}
+[19.744336] (-) TimerEvent: {}
+[19.845354] (-) TimerEvent: {}
+[19.946442] (-) TimerEvent: {}
+[20.093698] (-) TimerEvent: {}
+[20.194529] (-) TimerEvent: {}
+[20.295193] (-) TimerEvent: {}
+[20.395798] (-) TimerEvent: {}
+[20.496348] (-) TimerEvent: {}
+[20.596939] (-) TimerEvent: {}
+[20.697636] (-) TimerEvent: {}
+[20.798817] (-) TimerEvent: {}
+[20.899651] (-) TimerEvent: {}
+[21.000419] (-) TimerEvent: {}
+[21.101203] (-) TimerEvent: {}
+[21.202148] (-) TimerEvent: {}
+[21.303019] (-) TimerEvent: {}
+[21.404014] (-) TimerEvent: {}
+[21.505049] (-) TimerEvent: {}
+[21.606036] (-) TimerEvent: {}
+[21.706920] (-) TimerEvent: {}
+[21.807778] (-) TimerEvent: {}
+[21.908590] (-) TimerEvent: {}
+[22.009421] (-) TimerEvent: {}
+[22.110298] (-) TimerEvent: {}
+[22.211088] (-) TimerEvent: {}
+[22.311717] (-) TimerEvent: {}
+[22.412316] (-) TimerEvent: {}
+[22.512977] (-) TimerEvent: {}
+[22.523370] (teleop_twist_joy) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libteleop_twist_joy.so\x1b[0m\n'}
+[22.613288] (-) TimerEvent: {}
+[22.714577] (-) TimerEvent: {}
+[22.815796] (-) TimerEvent: {}
+[22.916871] (-) TimerEvent: {}
+[23.017965] (-) TimerEvent: {}
+[23.118979] (-) TimerEvent: {}
+[23.220011] (-) TimerEvent: {}
+[23.270033] (teleop_twist_joy) StdoutLine: {'line': b'[ 50%] Built target teleop_twist_joy\n'}
+[23.295099] (teleop_twist_joy) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target teleop_twist_joy_node\x1b[0m\n'}
+[23.320124] (-) TimerEvent: {}
+[23.369165] (teleop_twist_joy) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/teleop_twist_joy_node.dir/src/teleop_node.cpp.o\x1b[0m\n'}
+[23.420322] (-) TimerEvent: {}
+[23.521295] (-) TimerEvent: {}
+[23.622538] (-) TimerEvent: {}
+[23.723715] (-) TimerEvent: {}
+[23.824785] (-) TimerEvent: {}
+[23.925893] (-) TimerEvent: {}
+[24.027052] (-) TimerEvent: {}
+[24.128229] (-) TimerEvent: {}
+[24.229375] (-) TimerEvent: {}
+[24.330662] (-) TimerEvent: {}
+[24.431800] (-) TimerEvent: {}
+[24.532919] (-) TimerEvent: {}
+[24.634161] (-) TimerEvent: {}
+[24.735391] (-) TimerEvent: {}
+[24.836421] (-) TimerEvent: {}
+[24.937448] (-) TimerEvent: {}
+[25.038713] (-) TimerEvent: {}
+[25.140233] (-) TimerEvent: {}
+[25.241457] (-) TimerEvent: {}
+[25.342714] (-) TimerEvent: {}
+[25.443902] (-) TimerEvent: {}
+[25.545123] (-) TimerEvent: {}
+[25.646380] (-) TimerEvent: {}
+[25.747627] (-) TimerEvent: {}
+[25.848878] (-) TimerEvent: {}
+[25.950117] (-) TimerEvent: {}
+[26.051278] (-) TimerEvent: {}
+[26.152423] (-) TimerEvent: {}
+[26.253385] (-) TimerEvent: {}
+[26.354315] (-) TimerEvent: {}
+[26.455496] (-) TimerEvent: {}
+[26.556603] (-) TimerEvent: {}
+[26.657778] (-) TimerEvent: {}
+[26.758927] (-) TimerEvent: {}
+[26.860134] (-) TimerEvent: {}
+[26.961358] (-) TimerEvent: {}
+[27.062599] (-) TimerEvent: {}
+[27.163808] (-) TimerEvent: {}
+[27.265066] (-) TimerEvent: {}
+[27.366296] (-) TimerEvent: {}
+[27.467485] (-) TimerEvent: {}
+[27.568608] (-) TimerEvent: {}
+[27.669781] (-) TimerEvent: {}
+[27.770987] (-) TimerEvent: {}
+[27.776778] (teleop_twist_joy) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable teleop_node\x1b[0m\n'}
+[27.871221] (-) TimerEvent: {}
+[27.972341] (-) TimerEvent: {}
+[28.073428] (-) TimerEvent: {}
+[28.174503] (-) TimerEvent: {}
+[28.204513] (teleop_twist_joy) StdoutLine: {'line': b'[100%] Built target teleop_twist_joy_node\n'}
+[28.274587] (-) TimerEvent: {}
+[28.358899] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[28.374777] (-) TimerEvent: {}
+[28.422135] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'install'}
+[28.452971] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy'], 'cwd': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rsl'), ('SSH_AGENT_PID', '2134'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rsl'), ('OLDPWD', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1656'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rsl'), ('JOURNAL_STREAM', '7:48908'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rsl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/rsl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rsl-desktop:@/tmp/.ICE-unix/2182,unix/rsl-desktop:/tmp/.ICE-unix/2182'), ('INVOCATION_ID', 'e565fc982519493790b99d9abab2c52e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6fe359c5_7acc_4b1d_ad88_8cd1997681c4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/teleop_twist_joy'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy')]), 'shell': False}
+[28.474923] (-) TimerEvent: {}
+[28.483842] (teleop_twist_joy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.484603] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so\n'}
+[28.494296] (teleop_twist_joy) StdoutLine: {'line': b'-- Set runtime path of "/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so" to ""\n'}
+[28.494685] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node\n'}
+[28.495544] (teleop_twist_joy) StdoutLine: {'line': b'-- Set runtime path of "/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node" to ""\n'}
+[28.495819] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/include\n'}
+[28.496099] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/include/teleop_twist_joy\n'}
+[28.496279] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy.hpp\n'}
+[28.496507] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy_export.h\n'}
+[28.496732] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/launch\n'}
+[28.496952] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py\n'}
+[28.497175] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/config\n'}
+[28.497426] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml\n'}
+[28.497649] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/config/logitech.config.yaml\n'}
+[28.497953] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml\n'}
+[28.498202] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml\n'}
+[28.498445] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml\n'}
+[28.498622] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml\n'}
+[28.498855] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh\n'}
+[28.499079] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv\n'}
+[28.499526] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy\n'}
+[28.499940] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy\n'}
+[28.500273] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh\n'}
+[28.500582] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv\n'}
+[28.500891] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh\n'}
+[28.501192] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv\n'}
+[28.501512] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash\n'}
+[28.501831] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh\n'}
+[28.502139] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh\n'}
+[28.502439] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv\n'}
+[28.502731] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv\n'}
+[28.503145] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy\n'}
+[28.503676] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy\n'}
+[28.503973] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[28.504310] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[28.504613] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake\n'}
+[28.504843] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake\n'}
+[28.505131] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/teleop_twist_joy/share/teleop_twist_joy/package.xml\n'}
+[28.512334] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[28.575119] (-) TimerEvent: {}
+[28.675996] (-) TimerEvent: {}
+[28.695894] (teleop_twist_joy) JobEnded: {'identifier': 'teleop_twist_joy', 'rc': 0}
+[28.698697] (-) EventReactorShutdown: {}

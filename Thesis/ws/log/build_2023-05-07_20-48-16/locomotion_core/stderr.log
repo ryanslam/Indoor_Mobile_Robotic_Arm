@@ -1,0 +1,5 @@
+  File "/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/rover_state_controller.py", line 76
+    self.pub_velocities(msg, 0 1000, self.pub_du1)
+                               ^
+SyntaxError: invalid syntax
+

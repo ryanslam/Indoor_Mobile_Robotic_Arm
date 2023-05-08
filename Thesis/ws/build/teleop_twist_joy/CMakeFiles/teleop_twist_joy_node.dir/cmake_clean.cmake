@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/teleop_twist_joy_node.dir/src/teleop_node.cpp.o"
-  "CMakeFiles/teleop_twist_joy_node.dir/src/teleop_node.cpp.o.d"
   "teleop_node"
   "teleop_node.pdb"
 )
