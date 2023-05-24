@@ -1,0 +1,65 @@
+[4.597s] Invoking command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/locomotion_core': PYTHONPATH=/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/prefix_override:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/locomotion_core build --build-base /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/build install --record /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/install.log --single-version-externally-managed
+[4.637s] Error processing line 1 of /usr/lib/python3/dist-packages/matplotlib-3.1.2-nspkg.pth:
+[4.637s] 
+[4.647s]   Traceback (most recent call last):
+[4.647s]     File "/usr/lib/python3.8/site.py", line 175, in addpackage
+[4.647s]       exec(line)
+[4.647s]     File "<string>", line 1, in <module>
+[4.647s]     File "<frozen importlib._bootstrap>", line 553, in module_from_spec
+[4.647s]   AttributeError: 'NoneType' object has no attribute 'loader'
+[4.647s] 
+[4.648s] Remainder of file ignored
+[5.049s] running egg_info
+[5.051s] creating ../build/locomotion_core/locomotion_core.egg-info
+[5.051s] writing ../build/locomotion_core/locomotion_core.egg-info/PKG-INFO
+[5.052s] writing dependency_links to ../build/locomotion_core/locomotion_core.egg-info/dependency_links.txt
+[5.052s] writing entry points to ../build/locomotion_core/locomotion_core.egg-info/entry_points.txt
+[5.052s] writing requirements to ../build/locomotion_core/locomotion_core.egg-info/requires.txt
+[5.052s] writing top-level names to ../build/locomotion_core/locomotion_core.egg-info/top_level.txt
+[5.198s] writing manifest file '../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'
+[5.398s] reading manifest file '../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'
+[5.400s] writing manifest file '../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'
+[5.402s] running build
+[5.402s] running build_py
+[5.403s] creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/build
+[5.404s] creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/build/lib
+[5.404s] creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/build/lib/locomotion_core
+[5.405s] copying locomotion_core/RoverDescription.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/build/lib/locomotion_core
+[5.406s] copying locomotion_core/RobotDefinition.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/build/lib/locomotion_core
+[5.406s] copying locomotion_core/__init__.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/build/lib/locomotion_core
+[5.406s] copying locomotion_core/rover_state_controller.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/build/lib/locomotion_core
+[5.407s] copying locomotion_core/cmd_roboteq.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/build/lib/locomotion_core
+[5.407s] copying locomotion_core/driver_node.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/build/lib/locomotion_core
+[5.407s] copying locomotion_core/cmd_roboteq_test.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/build/lib/locomotion_core
+[5.408s] running install
+[5.410s] running install_lib
+[5.411s] creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core
+[5.411s] copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/build/lib/locomotion_core/RoverDescription.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core
+[5.411s] copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/build/lib/locomotion_core/RobotDefinition.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core
+[5.412s] copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/build/lib/locomotion_core/__init__.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core
+[5.412s] copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/build/lib/locomotion_core/rover_state_controller.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core
+[5.412s] copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/build/lib/locomotion_core/cmd_roboteq.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core
+[5.412s] copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/build/lib/locomotion_core/driver_node.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core
+[5.413s] copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/build/lib/locomotion_core/cmd_roboteq_test.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core
+[5.414s] byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/RoverDescription.py to RoverDescription.cpython-38.pyc
+[5.418s] byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/RobotDefinition.py to RobotDefinition.cpython-38.pyc
+[5.418s] byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/__init__.py to __init__.cpython-38.pyc
+[5.419s] byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/rover_state_controller.py to rover_state_controller.cpython-38.pyc
+[5.420s] byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/cmd_roboteq.py to cmd_roboteq.cpython-38.pyc
+[5.421s] byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/driver_node.py to driver_node.cpython-38.pyc
+[5.422s] byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/cmd_roboteq_test.py to cmd_roboteq_test.cpython-38.pyc
+[5.423s] running install_data
+[5.425s] creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/share/ament_index
+[5.426s] creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/share/ament_index/resource_index
+[5.426s] creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/share/ament_index/resource_index/packages
+[5.426s] copying resource/locomotion_core -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/share/ament_index/resource_index/packages
+[5.426s] copying package.xml -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/share/locomotion_core
+[5.427s] running install_egg_info
+[5.430s] Copying ../build/locomotion_core/locomotion_core.egg-info to /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core-0.0.0-py3.8.egg-info
+[5.433s] running install_scripts
+[5.476s] Installing cmd_roboteq script to /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/lib/locomotion_core
+[5.477s] Installing drive_selector script to /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/lib/locomotion_core
+[5.477s] Installing movebase_core script to /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/lib/locomotion_core
+[5.478s] Installing rover_state_controller script to /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/lib/locomotion_core
+[5.479s] writing list of installed files to '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/install.log'
+[5.781s] Invoked command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/locomotion_core' returned '0': PYTHONPATH=/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/prefix_override:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/install/locomotion_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/locomotion_core build --build-base /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/build install --record /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/build/locomotion_core/install.log --single-version-externally-managed

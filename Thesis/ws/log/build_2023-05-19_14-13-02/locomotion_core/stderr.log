@@ -1,0 +1,5 @@
+  File "/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/rover_state_controller.py", line 34
+    self.pub_du = self.create_publisher(Int16, 'rov/motors, 5)
+                                                             ^
+SyntaxError: EOL while scanning string literal
+

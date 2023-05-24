@@ -1,0 +1,191 @@
+[0.084s] Invoking command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --build /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface -- -j6 -l6
+[0.642s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.643s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.643s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.643s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.643s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.643s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.904s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.059s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.127s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.408s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.623s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.638s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.690s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.691s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.740s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.740s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.740s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[1.771s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.898s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.902s] -- Added test 'lint_cmake' to check CMake code style
+[1.904s] -- Added test 'xmllint' to check XML markup files
+[1.914s] -- Configuring done
+[1.995s] -- Generating done
+[2.056s] -- Build files have been written to: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface
+[2.120s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.151s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.614s] [35m[1mScanning dependencies of target roboteq_interface__rosidl_generator_c[0m
+[2.637s] [  6%] Built target roboteq_interface__cpp
+[2.660s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.661s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.678s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.788s] [ 19%] [32mBuilding C object CMakeFiles/roboteq_interface__rosidl_generator_c.dir/rosidl_generator_c/roboteq_interface/msg/detail/driver_list__functions.c.o[0m
+[3.012s] [ 22%] [32m[1mLinking C shared library libroboteq_interface__rosidl_generator_c.so[0m
+[3.072s] [35m[1mScanning dependencies of target roboteq_interface__rosidl_typesupport_cpp[0m
+[3.123s] [ 22%] Built target roboteq_interface__rosidl_generator_c
+[3.124s] [35m[1mScanning dependencies of target roboteq_interface__rosidl_typesupport_fastrtps_cpp[0m
+[3.148s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.154s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.206s] [ 32%] [32mBuilding CXX object CMakeFiles/roboteq_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roboteq_interface/msg/detail/dds_fastrtps/driver_list__type_support.cpp.o[0m
+[3.217s] [35m[1mScanning dependencies of target roboteq_interface__rosidl_typesupport_introspection_cpp[0m
+[3.224s] [ 35%] [32mBuilding CXX object CMakeFiles/roboteq_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roboteq_interface/msg/driver_list__type_support.cpp.o[0m
+[3.387s] [ 38%] [32mBuilding CXX object CMakeFiles/roboteq_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roboteq_interface/msg/detail/driver_list__type_support.cpp.o[0m
+[3.749s] [35m[1mScanning dependencies of target roboteq_interface__rosidl_typesupport_c[0m
+[3.872s] [35m[1mScanning dependencies of target roboteq_interface__rosidl_typesupport_introspection_c[0m
+[3.937s] [ 41%] [32mBuilding C object CMakeFiles/roboteq_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roboteq_interface/msg/detail/driver_list__type_support.c.o[0m
+[3.964s] [ 45%] [32mBuilding CXX object CMakeFiles/roboteq_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/roboteq_interface/msg/driver_list__type_support.cpp.o[0m
+[4.185s] [ 48%] [32m[1mLinking C shared library libroboteq_interface__rosidl_typesupport_introspection_c.so[0m
+[4.187s] [ 51%] [32m[1mLinking CXX shared library libroboteq_interface__rosidl_typesupport_c.so[0m
+[4.215s] [ 54%] [32m[1mLinking CXX shared library libroboteq_interface__rosidl_typesupport_cpp.so[0m
+[4.282s] [ 54%] Built target roboteq_interface__rosidl_typesupport_introspection_c
+[4.324s] [ 54%] Built target roboteq_interface__rosidl_typesupport_c
+[4.360s] [ 54%] Built target roboteq_interface__rosidl_typesupport_cpp
+[4.448s] [ 58%] [32m[1mLinking CXX shared library libroboteq_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.469s] [ 61%] [32m[1mLinking CXX shared library libroboteq_interface__rosidl_typesupport_introspection_cpp.so[0m
+[4.657s] [ 61%] Built target roboteq_interface__rosidl_typesupport_introspection_cpp
+[4.670s] [ 61%] Built target roboteq_interface__rosidl_typesupport_fastrtps_cpp
+[4.691s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.222s] [35m[1mScanning dependencies of target roboteq_interface__rosidl_typesupport_fastrtps_c[0m
+[5.396s] [ 67%] [32mBuilding CXX object CMakeFiles/roboteq_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roboteq_interface/msg/detail/driver_list__type_support_c.cpp.o[0m
+[6.514s] [ 70%] [32m[1mLinking CXX shared library libroboteq_interface__rosidl_typesupport_fastrtps_c.so[0m
+[6.778s] [ 70%] Built target roboteq_interface__rosidl_typesupport_fastrtps_c
+[6.989s] [ 70%] Built target roboteq_interface
+[7.049s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.980s] [ 74%] Built target roboteq_interface__py
+[8.012s] [35m[1mScanning dependencies of target roboteq_interface__python[0m
+[8.155s] [ 77%] [32mBuilding C object CMakeFiles/roboteq_interface__python.dir/rosidl_generator_py/roboteq_interface/msg/_driver_list_s.c.o[0m
+[8.508s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/roboteq_interface/libroboteq_interface__python.so[0m
+[8.614s] [ 80%] Built target roboteq_interface__python
+[8.669s] [35m[1mScanning dependencies of target roboteq_interface__rosidl_typesupport_c__pyext[0m
+[8.670s] [35m[1mScanning dependencies of target roboteq_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[8.678s] [35m[1mScanning dependencies of target roboteq_interface__rosidl_typesupport_introspection_c__pyext[0m
+[8.790s] [ 83%] [32mBuilding C object CMakeFiles/roboteq_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/roboteq_interface/_roboteq_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[8.791s] [ 87%] [32mBuilding C object CMakeFiles/roboteq_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/roboteq_interface/_roboteq_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.798s] [ 90%] [32mBuilding C object CMakeFiles/roboteq_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/roboteq_interface/_roboteq_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.107s] [100%] [32m[1mLinking C shared library rosidl_generator_py/roboteq_interface/roboteq_interface_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[9.108s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/roboteq_interface/roboteq_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[9.108s] [100%] [32m[1mLinking C shared library rosidl_generator_py/roboteq_interface/roboteq_interface_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[9.198s] [100%] Built target roboteq_interface__rosidl_typesupport_c__pyext
+[9.198s] [100%] Built target roboteq_interface__rosidl_typesupport_introspection_c__pyext
+[9.289s] [100%] Built target roboteq_interface__rosidl_typesupport_fastrtps_c__pyext
+[9.353s] Invoked command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --build /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface -- -j6 -l6
+[9.490s] Invoking command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --install /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface
+[9.520s] -- Install configuration: ""
+[9.520s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/ament_index/resource_index/rosidl_interfaces/roboteq_interface
+[9.520s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface
+[9.521s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg
+[9.521s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/rosidl_generator_c__visibility_control.h
+[9.522s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/driver_list.h
+[9.522s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/detail
+[9.522s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/detail/driver_list__type_support.h
+[9.523s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/detail/driver_list__functions.h
+[9.523s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/detail/driver_list__struct.h
+[9.523s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/detail/driver_list__functions.c
+[9.523s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/environment/library_path.sh
+[9.523s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/environment/library_path.dsv
+[9.523s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/libroboteq_interface__rosidl_generator_c.so
+[9.524s] -- Set runtime path of "/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/libroboteq_interface__rosidl_generator_c.so" to ""
+[9.524s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface
+[9.524s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg
+[9.524s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.524s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/detail
+[9.524s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/detail/driver_list__rosidl_typesupport_fastrtps_c.h
+[9.524s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/libroboteq_interface__rosidl_typesupport_fastrtps_c.so
+[9.525s] -- Set runtime path of "/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/libroboteq_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[9.525s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface
+[9.526s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg
+[9.526s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.526s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/detail
+[9.526s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/detail/dds_fastrtps
+[9.526s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/detail/driver_list__rosidl_typesupport_fastrtps_cpp.hpp
+[9.526s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/libroboteq_interface__rosidl_typesupport_fastrtps_cpp.so
+[9.527s] -- Set runtime path of "/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/libroboteq_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.527s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface
+[9.527s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg
+[9.528s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.528s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/detail
+[9.528s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/detail/driver_list__type_support.c
+[9.528s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/detail/driver_list__rosidl_typesupport_introspection_c.h
+[9.528s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/libroboteq_interface__rosidl_typesupport_introspection_c.so
+[9.529s] -- Set runtime path of "/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/libroboteq_interface__rosidl_typesupport_introspection_c.so" to ""
+[9.529s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/libroboteq_interface__rosidl_typesupport_c.so
+[9.530s] -- Set runtime path of "/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/libroboteq_interface__rosidl_typesupport_c.so" to ""
+[9.530s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface
+[9.530s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg
+[9.531s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/driver_list.hpp
+[9.531s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/detail
+[9.531s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/detail/driver_list__traits.hpp
+[9.531s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/detail/driver_list__builder.hpp
+[9.531s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/detail/driver_list__struct.hpp
+[9.532s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface
+[9.532s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg
+[9.532s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/detail
+[9.532s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/detail/driver_list__rosidl_typesupport_introspection_cpp.hpp
+[9.532s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/include/roboteq_interface/msg/detail/driver_list__type_support.cpp
+[9.533s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/libroboteq_interface__rosidl_typesupport_introspection_cpp.so
+[9.534s] -- Set runtime path of "/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/libroboteq_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[9.534s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/libroboteq_interface__rosidl_typesupport_cpp.so
+[9.535s] -- Set runtime path of "/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/libroboteq_interface__rosidl_typesupport_cpp.so" to ""
+[9.536s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/environment/pythonpath.sh
+[9.536s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/environment/pythonpath.dsv
+[9.536s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/python3.8/site-packages/roboteq_interface/__init__.py
+[9.624s] Compiling '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/python3.8/site-packages/roboteq_interface/__init__.py'...
+[9.652s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/python3.8/site-packages/roboteq_interface/msg
+[9.652s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/python3.8/site-packages/roboteq_interface/msg/_driver_list_s.c
+[9.653s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/python3.8/site-packages/roboteq_interface/msg/__init__.py
+[9.653s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/python3.8/site-packages/roboteq_interface/msg/_driver_list.py
+[9.654s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/python3.8/site-packages/roboteq_interface/roboteq_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[9.655s] -- Set runtime path of "/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/python3.8/site-packages/roboteq_interface/roboteq_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[9.657s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/python3.8/site-packages/roboteq_interface/roboteq_interface_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[9.658s] -- Set runtime path of "/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/python3.8/site-packages/roboteq_interface/roboteq_interface_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[9.658s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/python3.8/site-packages/roboteq_interface/roboteq_interface_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[9.659s] -- Set runtime path of "/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/python3.8/site-packages/roboteq_interface/roboteq_interface_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[9.660s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/libroboteq_interface__python.so
+[9.660s] -- Set runtime path of "/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/lib/libroboteq_interface__python.so" to ""
+[9.661s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/msg/DriverList.idl
+[9.661s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/msg/DriverList.msg
+[9.661s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/ament_index/resource_index/package_run_dependencies/roboteq_interface
+[9.661s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/ament_index/resource_index/parent_prefix_path/roboteq_interface
+[9.662s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/environment/ament_prefix_path.sh
+[9.662s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/environment/ament_prefix_path.dsv
+[9.662s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/environment/path.sh
+[9.662s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/environment/path.dsv
+[9.663s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/local_setup.bash
+[9.663s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/local_setup.sh
+[9.663s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/local_setup.zsh
+[9.663s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/local_setup.dsv
+[9.663s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/package.dsv
+[9.664s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/ament_index/resource_index/packages/roboteq_interface
+[9.664s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/cmake/roboteq_interface__rosidl_generator_cExport.cmake
+[9.664s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/cmake/roboteq_interface__rosidl_generator_cExport-noconfig.cmake
+[9.665s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/cmake/roboteq_interface__rosidl_typesupport_introspection_cExport.cmake
+[9.665s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/cmake/roboteq_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.666s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/cmake/roboteq_interface__rosidl_typesupport_cExport.cmake
+[9.666s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/cmake/roboteq_interface__rosidl_typesupport_cExport-noconfig.cmake
+[9.666s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/cmake/roboteq_interface__rosidl_generator_cppExport.cmake
+[9.667s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/cmake/roboteq_interface__rosidl_typesupport_introspection_cppExport.cmake
+[9.667s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/cmake/roboteq_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.668s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/cmake/roboteq_interface__rosidl_typesupport_cppExport.cmake
+[9.668s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/cmake/roboteq_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[9.668s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/cmake/rosidl_cmake-extras.cmake
+[9.669s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.669s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[9.669s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/cmake/ament_cmake_export_targets-extras.cmake
+[9.670s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.670s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.670s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.670s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/cmake/roboteq_interfaceConfig.cmake
+[9.670s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/cmake/roboteq_interfaceConfig-version.cmake
+[9.670s] -- Up-to-date: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/roboteq_interface/share/roboteq_interface/package.xml
+[9.692s] Invoked command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/rsl_scu:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --install /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/roboteq_interface

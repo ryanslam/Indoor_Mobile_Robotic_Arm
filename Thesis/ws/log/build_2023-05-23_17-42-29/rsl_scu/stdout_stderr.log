@@ -1,0 +1,22 @@
+Error processing line 1 of /usr/lib/python3/dist-packages/matplotlib-3.1.2-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "/usr/lib/python3.8/site.py", line 175, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+    File "<frozen importlib._bootstrap>", line 553, in module_from_spec
+  AttributeError: 'NoneType' object has no attribute 'loader'
+
+Remainder of file ignored
+running egg_info
+writing ../../build/rsl_scu/rsl_scu.egg-info/PKG-INFO
+writing dependency_links to ../../build/rsl_scu/rsl_scu.egg-info/dependency_links.txt
+writing entry points to ../../build/rsl_scu/rsl_scu.egg-info/entry_points.txt
+writing requirements to ../../build/rsl_scu/rsl_scu.egg-info/requires.txt
+writing top-level names to ../../build/rsl_scu/rsl_scu.egg-info/top_level.txt
+reading manifest file '../../build/rsl_scu/rsl_scu.egg-info/SOURCES.txt'
+writing manifest file '../../build/rsl_scu/rsl_scu.egg-info/SOURCES.txt'
+running build
+error: could not delete '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/rsl_scu/build/lib/rsl_scu/custom_joy.py': No such file or directory
+running build_py
+copying rsl_scu/custom_joy.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/build/rsl_scu/build/lib/rsl_scu

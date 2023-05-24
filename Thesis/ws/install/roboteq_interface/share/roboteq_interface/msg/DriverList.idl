@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from roboteq_interface/msg/DriverList.msg
+// generated code does not contain a copyright notice
+
+
+module roboteq_interface {
+  module msg {
+    struct DriverList {
+      sequence<int16> motors;
+    };
+  };
+};

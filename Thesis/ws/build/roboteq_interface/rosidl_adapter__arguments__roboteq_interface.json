@@ -1,0 +1,6 @@
+{
+  "package_name": "roboteq_interface",
+  "non_idl_tuples": [
+    "/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/roboteq_interface:msg/DriverList.msg"
+  ]
+}

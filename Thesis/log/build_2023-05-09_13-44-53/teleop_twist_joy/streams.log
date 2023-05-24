@@ -1,0 +1,113 @@
+[0.944s] Invoking command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/teleop_twist_joy -DCMAKE_INSTALL_PREFIX=/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy
+[1.149s] -- The C compiler identification is GNU 9.4.0
+[1.332s] -- The CXX compiler identification is GNU 9.4.0
+[1.341s] -- Check for working C compiler: /usr/bin/cc
+[1.560s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.562s] -- Detecting C compiler ABI info
+[1.822s] -- Detecting C compiler ABI info - done
+[1.842s] -- Detecting C compile features
+[1.842s] -- Detecting C compile features - done
+[1.848s] -- Check for working CXX compiler: /usr/bin/c++
+[2.122s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.123s] -- Detecting CXX compiler ABI info
+[2.409s] -- Detecting CXX compiler ABI info - done
+[2.429s] -- Detecting CXX compile features
+[2.430s] -- Detecting CXX compile features - done
+[2.435s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.492s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.494s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.080s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.291s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.308s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.795s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.993s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.453s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.954s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.200s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.205s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.209s] -- Looking for pthread.h
+[5.505s] -- Looking for pthread.h - found
+[5.506s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.884s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.885s] -- Looking for pthread_create in pthreads
+[6.398s] -- Looking for pthread_create in pthreads - not found
+[6.398s] -- Looking for pthread_create in pthread
+[6.644s] -- Looking for pthread_create in pthread - found
+[6.648s] -- Found Threads: TRUE  
+[7.903s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[8.308s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[8.588s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[8.840s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[8.842s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[9.098s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[9.099s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[9.363s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[9.511s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[9.849s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[9.900s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[10.056s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[10.056s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.056s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[10.057s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[10.107s] -- Found PythonExtra: .so  
+[10.427s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.428s] -- Configured cppcheck include dirs: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/teleop_twist_joy/include
+[10.428s] -- Configured cppcheck exclude dirs and/or files: 
+[10.429s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.431s] -- Added test 'lint_cmake' to check CMake code style
+[10.433s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[10.434s] -- Added test 'xmllint' to check XML markup files
+[10.587s] -- Configuring done
+[10.616s] -- Generating done
+[10.619s] -- Build files have been written to: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/teleop_twist_joy
+[10.655s] Invoked command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/teleop_twist_joy -DCMAKE_INSTALL_PREFIX=/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy
+[10.665s] Invoking command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/teleop_twist_joy -- -j6 -l6
+[10.768s] [35m[1mScanning dependencies of target teleop_twist_joy[0m
+[11.143s] [ 25%] [32mBuilding CXX object CMakeFiles/teleop_twist_joy.dir/src/teleop_twist_joy.cpp.o[0m
+[27.805s] [ 50%] [32m[1mLinking CXX shared library libteleop_twist_joy.so[0m
+[28.844s] [ 50%] Built target teleop_twist_joy
+[28.870s] [35m[1mScanning dependencies of target teleop_twist_joy_node[0m
+[29.067s] [ 75%] [32mBuilding CXX object CMakeFiles/teleop_twist_joy_node.dir/src/teleop_node.cpp.o[0m
+[33.841s] [100%] [32m[1mLinking CXX executable teleop_node[0m
+[34.284s] [100%] Built target teleop_twist_joy_node
+[34.437s] Invoked command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/teleop_twist_joy -- -j6 -l6
+[34.509s] Invoking command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/teleop_twist_joy
+[34.533s] -- Install configuration: ""
+[34.533s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/lib/libteleop_twist_joy.so
+[34.542s] -- Set runtime path of "/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/lib/libteleop_twist_joy.so" to ""
+[34.542s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node
+[34.543s] -- Set runtime path of "/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node" to ""
+[34.543s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/include
+[34.544s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/include/teleop_twist_joy
+[34.544s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy.hpp
+[34.544s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy_export.h
+[34.544s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/launch
+[34.544s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py
+[34.628s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/config
+[34.629s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml
+[34.631s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/config/logitech.config.yaml
+[34.634s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml
+[34.639s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml
+[34.639s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml
+[34.640s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml
+[34.641s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh
+[34.641s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv
+[34.642s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy
+[34.642s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy
+[34.642s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh
+[34.643s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv
+[34.643s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh
+[34.643s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv
+[34.644s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash
+[34.644s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh
+[34.644s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh
+[34.645s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv
+[34.645s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv
+[34.645s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy
+[34.646s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy
+[34.646s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake
+[34.646s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake
+[34.647s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake
+[34.647s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake
+[34.647s] -- Installing: /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/teleop_twist_joy/share/teleop_twist_joy/package.xml
+[34.663s] Invoked command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/teleop_twist_joy
