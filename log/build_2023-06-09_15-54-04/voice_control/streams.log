@@ -1,0 +1,46 @@
+[2.769s] Invoking command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/voice_control': PYTHONPATH=/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/prefix_override:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/voice_control build --build-base /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build install --record /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/install.log --install-scripts $base/lib/voice_control --single-version-externally-managed
+[2.859s] Error processing line 1 of /usr/lib/python3/dist-packages/matplotlib-3.1.2-nspkg.pth:
+[2.859s] 
+[2.870s]   Traceback (most recent call last):
+[2.870s]     File "/usr/lib/python3.8/site.py", line 175, in addpackage
+[2.870s]       exec(line)
+[2.871s]     File "<string>", line 1, in <module>
+[2.871s]     File "<frozen importlib._bootstrap>", line 553, in module_from_spec
+[2.871s]   AttributeError: 'NoneType' object has no attribute 'loader'
+[2.871s] 
+[2.871s] Remainder of file ignored
+[3.241s] running egg_info
+[3.244s] creating ../../../../build/voice_control/voice_control.egg-info
+[3.244s] writing ../../../../build/voice_control/voice_control.egg-info/PKG-INFO
+[3.245s] writing dependency_links to ../../../../build/voice_control/voice_control.egg-info/dependency_links.txt
+[3.245s] writing entry points to ../../../../build/voice_control/voice_control.egg-info/entry_points.txt
+[3.245s] writing requirements to ../../../../build/voice_control/voice_control.egg-info/requires.txt
+[3.245s] writing top-level names to ../../../../build/voice_control/voice_control.egg-info/top_level.txt
+[3.249s] writing manifest file '../../../../build/voice_control/voice_control.egg-info/SOURCES.txt'
+[3.323s] reading manifest file '../../../../build/voice_control/voice_control.egg-info/SOURCES.txt'
+[3.329s] writing manifest file '../../../../build/voice_control/voice_control.egg-info/SOURCES.txt'
+[3.330s] running build
+[3.330s] running build_py
+[3.330s] creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build
+[3.330s] creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build/lib
+[3.330s] creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build/lib/voice_control
+[3.330s] copying voice_control/__init__.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build/lib/voice_control
+[3.331s] copying voice_control/voice_command.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build/lib/voice_control
+[3.331s] running install
+[3.331s] running install_lib
+[3.331s] creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control
+[3.332s] copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build/lib/voice_control/__init__.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control
+[3.332s] copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build/lib/voice_control/voice_command.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control
+[3.335s] byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control/__init__.py to __init__.cpython-38.pyc
+[3.336s] byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control/voice_command.py to voice_command.cpython-38.pyc
+[3.338s] running install_data
+[3.339s] creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/ament_index
+[3.339s] creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/ament_index/resource_index
+[3.339s] creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/ament_index/resource_index/packages
+[3.340s] copying resource/voice_control -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/ament_index/resource_index/packages
+[3.340s] copying package.xml -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/voice_control
+[3.340s] running install_egg_info
+[3.344s] Copying ../../../../build/voice_control/voice_control.egg-info to /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control-0.0.0-py3.8.egg-info
+[3.347s] running install_scripts
+[3.394s] writing list of installed files to '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/install.log'
+[3.525s] Invoked command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/voice_control' returned '0': PYTHONPATH=/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/prefix_override:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/voice_control build --build-base /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build install --record /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/install.log --install-scripts $base/lib/voice_control --single-version-externally-managed

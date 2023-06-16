@@ -1,0 +1,34 @@
+[3.696s] Invoking command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/rsl_scu': PYTHONPATH=/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/rsl_scu/prefix_override:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/rsl_scu/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rsl_scu build --build-base /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/rsl_scu/build install --record /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/rsl_scu/install.log --install-scripts $base/lib/rsl_scu --single-version-externally-managed
+[3.877s] Error processing line 1 of /usr/lib/python3/dist-packages/matplotlib-3.1.2-nspkg.pth:
+[3.878s] 
+[3.888s]   Traceback (most recent call last):
+[3.888s]     File "/usr/lib/python3.8/site.py", line 175, in addpackage
+[3.888s]       exec(line)
+[3.888s]     File "<string>", line 1, in <module>
+[3.888s]     File "<frozen importlib._bootstrap>", line 553, in module_from_spec
+[3.889s]   AttributeError: 'NoneType' object has no attribute 'loader'
+[3.889s] 
+[3.889s] Remainder of file ignored
+[4.231s] running egg_info
+[4.232s] writing ../../../build/rsl_scu/rsl_scu.egg-info/PKG-INFO
+[4.233s] writing dependency_links to ../../../build/rsl_scu/rsl_scu.egg-info/dependency_links.txt
+[4.234s] writing entry points to ../../../build/rsl_scu/rsl_scu.egg-info/entry_points.txt
+[4.234s] writing requirements to ../../../build/rsl_scu/rsl_scu.egg-info/requires.txt
+[4.234s] writing top-level names to ../../../build/rsl_scu/rsl_scu.egg-info/top_level.txt
+[4.485s] reading manifest file '../../../build/rsl_scu/rsl_scu.egg-info/SOURCES.txt'
+[4.626s] writing manifest file '../../../build/rsl_scu/rsl_scu.egg-info/SOURCES.txt'
+[4.627s] running build
+[4.627s] running build_py
+[4.627s] copying rsl_scu/custom_joy.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/rsl_scu/build/lib/rsl_scu
+[4.628s] running install
+[4.631s] running install_lib
+[4.633s] copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/rsl_scu/build/lib/rsl_scu/custom_joy.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/rsl_scu/lib/python3.8/site-packages/rsl_scu
+[4.635s] byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/rsl_scu/lib/python3.8/site-packages/rsl_scu/custom_joy.py to custom_joy.cpython-38.pyc
+[4.639s] running install_data
+[4.640s] running install_egg_info
+[4.644s] removing '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/rsl_scu/lib/python3.8/site-packages/rsl_scu-0.0.0-py3.8.egg-info' (and everything under it)
+[4.645s] Copying ../../../build/rsl_scu/rsl_scu.egg-info to /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/rsl_scu/lib/python3.8/site-packages/rsl_scu-0.0.0-py3.8.egg-info
+[4.648s] running install_scripts
+[4.691s] Installing rsl_joy script to /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/rsl_scu/lib/rsl_scu
+[4.692s] writing list of installed files to '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/rsl_scu/install.log'
+[4.824s] Invoked command in '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/rsl_scu' returned '0': PYTHONPATH=/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/rsl_scu/prefix_override:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/install/rsl_scu/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rsl_scu build --build-base /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/rsl_scu/build install --record /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/rsl_scu/install.log --install-scripts $base/lib/rsl_scu --single-version-externally-managed

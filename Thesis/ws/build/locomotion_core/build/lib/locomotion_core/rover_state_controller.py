@@ -41,7 +41,7 @@ class get_move_cmds(Node):
         vel_vector = (msg.linear.x*100, msg.linear.y*100, msg.angular.z/3)
         angular_vel_vector = self.rov.kinematic_equation(vel_vector)
         
-        self.rpm_vec = [max(min(100.0, i*60), -100.0) for i in angular_vel_vector]
+        self.rpm_vec = [max(min(150.0, i*60), -100.0) for i in angular_vel_vector]
         print(self.rpm_vec)
 
     # Publishes to the roboteq controller node.

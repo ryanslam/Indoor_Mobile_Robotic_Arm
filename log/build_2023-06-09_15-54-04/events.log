@@ -1,0 +1,254 @@
+[0.000000] (-) TimerEvent: {}
+[0.000695] (locomotion_core) JobQueued: {'identifier': 'locomotion_core', 'dependencies': OrderedDict()}
+[0.001078] (rsl_scu) JobQueued: {'identifier': 'rsl_scu', 'dependencies': OrderedDict()}
+[0.001312] (teleop_twist_joy) JobQueued: {'identifier': 'teleop_twist_joy', 'dependencies': OrderedDict()}
+[0.001876] (voice_control) JobQueued: {'identifier': 'voice_control', 'dependencies': OrderedDict()}
+[0.002247] (locomotion_core) JobStarted: {'identifier': 'locomotion_core'}
+[0.033632] (rsl_scu) JobStarted: {'identifier': 'rsl_scu'}
+[0.053040] (teleop_twist_joy) JobStarted: {'identifier': 'teleop_twist_joy'}
+[0.066314] (voice_control) JobStarted: {'identifier': 'voice_control'}
+[0.099196] (-) TimerEvent: {}
+[0.200269] (-) TimerEvent: {}
+[0.301179] (-) TimerEvent: {}
+[0.402014] (-) TimerEvent: {}
+[0.502919] (-) TimerEvent: {}
+[0.603818] (-) TimerEvent: {}
+[0.704740] (-) TimerEvent: {}
+[0.805835] (-) TimerEvent: {}
+[0.906934] (-) TimerEvent: {}
+[1.007846] (-) TimerEvent: {}
+[1.108771] (-) TimerEvent: {}
+[1.209663] (-) TimerEvent: {}
+[1.294311] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'cmake'}
+[1.295237] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/teleop_twist_joy', '-DCMAKE_INSTALL_PREFIX=/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/teleop_twist_joy'], 'cwd': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/teleop_twist_joy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rsl'), ('SSH_AGENT_PID', '2144'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/rsl'), ('OLDPWD', '/home/rsl/Desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1675'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'rsl'), ('JOURNAL_STREAM', '7:46924'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rsl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/rsl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rsl-desktop:@/tmp/.ICE-unix/2179,unix/rsl-desktop:/tmp/.ICE-unix/2179'), ('INVOCATION_ID', '2ea7c079cdce49e0bbfa7dea44509fca'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2fd0947a_7d3a_4dba_8a04_965c805708b3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/teleop_twist_joy'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[1.309860] (-) TimerEvent: {}
+[1.413244] (-) TimerEvent: {}
+[1.514492] (-) TimerEvent: {}
+[1.615434] (-) TimerEvent: {}
+[1.716553] (-) TimerEvent: {}
+[1.817473] (-) TimerEvent: {}
+[1.918568] (-) TimerEvent: {}
+[2.019697] (-) TimerEvent: {}
+[2.150478] (teleop_twist_joy) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.151482] (-) TimerEvent: {}
+[2.252151] (-) TimerEvent: {}
+[2.353183] (-) TimerEvent: {}
+[2.454113] (-) TimerEvent: {}
+[2.555061] (-) TimerEvent: {}
+[2.656019] (-) TimerEvent: {}
+[2.757207] (-) TimerEvent: {}
+[2.786269] (rsl_scu) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../../build/rsl_scu', 'build', '--build-base', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build', 'install', '--record', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/install.log', '--install-scripts', '$base/lib/rsl_scu', '--single-version-externally-managed'], 'cwd': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/rsl_scu', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rsl', 'SSH_AGENT_PID': '2144', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'HOME': '/home/rsl', 'OLDPWD': '/home/rsl/Desktop', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1675', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'rsl', 'JOURNAL_STREAM': '7:46924', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rsl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/rsl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/rsl-desktop:@/tmp/.ICE-unix/2179,unix/rsl-desktop:/tmp/.ICE-unix/2179', 'INVOCATION_ID': '2ea7c079cdce49e0bbfa7dea44509fca', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2fd0947a_7d3a_4dba_8a04_965c805708b3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'VTE_VERSION': '6003', 'PYTHONPATH': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/prefix_override:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/python3.8/site-packages:'}, 'shell': False}
+[2.834671] (voice_control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../../build/voice_control', 'build', '--build-base', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build', 'install', '--record', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/install.log', '--install-scripts', '$base/lib/voice_control', '--single-version-externally-managed'], 'cwd': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/voice_control', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rsl', 'SSH_AGENT_PID': '2144', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'HOME': '/home/rsl', 'OLDPWD': '/home/rsl/Desktop', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1675', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'rsl', 'JOURNAL_STREAM': '7:46924', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rsl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/rsl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/rsl-desktop:@/tmp/.ICE-unix/2179,unix/rsl-desktop:/tmp/.ICE-unix/2179', 'INVOCATION_ID': '2ea7c079cdce49e0bbfa7dea44509fca', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2fd0947a_7d3a_4dba_8a04_965c805708b3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'VTE_VERSION': '6003', 'PYTHONPATH': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/prefix_override:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages:'}, 'shell': False}
+[2.848796] (locomotion_core) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../../build/locomotion_core', 'build', '--build-base', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build', 'install', '--record', '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/install.log', '--single-version-externally-managed'], 'cwd': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/ws/src/locomotion_core', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rsl', 'SSH_AGENT_PID': '2144', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'HOME': '/home/rsl', 'OLDPWD': '/home/rsl/Desktop', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1675', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'rsl', 'JOURNAL_STREAM': '7:46924', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rsl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/rsl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/rsl-desktop:@/tmp/.ICE-unix/2179,unix/rsl-desktop:/tmp/.ICE-unix/2179', 'INVOCATION_ID': '2ea7c079cdce49e0bbfa7dea44509fca', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2fd0947a_7d3a_4dba_8a04_965c805708b3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'VTE_VERSION': '6003', 'PYTHONPATH': '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/prefix_override:/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages:'}, 'shell': False}
+[2.857953] (-) TimerEvent: {}
+[2.921958] (teleop_twist_joy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.922775] (rsl_scu) StderrLine: {'line': b'Error processing line 1 of /usr/lib/python3/dist-packages/matplotlib-3.1.2-nspkg.pth:\n'}
+[2.923116] (rsl_scu) StderrLine: {'line': b'\n'}
+[2.923272] (locomotion_core) StderrLine: {'line': b'Error processing line 1 of /usr/lib/python3/dist-packages/matplotlib-3.1.2-nspkg.pth:\n'}
+[2.923481] (locomotion_core) StderrLine: {'line': b'\n'}
+[2.925719] (voice_control) StderrLine: {'line': b'Error processing line 1 of /usr/lib/python3/dist-packages/matplotlib-3.1.2-nspkg.pth:\n'}
+[2.926019] (voice_control) StderrLine: {'line': b'\n'}
+[2.932140] (rsl_scu) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[2.932788] (rsl_scu) StderrLine: {'line': b'    File "/usr/lib/python3.8/site.py", line 175, in addpackage\n'}
+[2.932979] (rsl_scu) StderrLine: {'line': b'      exec(line)\n'}
+[2.933124] (rsl_scu) StderrLine: {'line': b'    File "<string>", line 1, in <module>\n'}
+[2.933573] (rsl_scu) StderrLine: {'line': b'    File "<frozen importlib._bootstrap>", line 553, in module_from_spec\n'}
+[2.933729] (rsl_scu) StderrLine: {'line': b"  AttributeError: 'NoneType' object has no attribute 'loader'\n"}
+[2.933863] (rsl_scu) StderrLine: {'line': b'\n'}
+[2.933983] (rsl_scu) StderrLine: {'line': b'Remainder of file ignored\n'}
+[2.934110] (locomotion_core) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[2.934269] (locomotion_core) StderrLine: {'line': b'    File "/usr/lib/python3.8/site.py", line 175, in addpackage\n'}
+[2.934389] (locomotion_core) StderrLine: {'line': b'      exec(line)\n'}
+[2.934508] (locomotion_core) StderrLine: {'line': b'    File "<string>", line 1, in <module>\n'}
+[2.934628] (locomotion_core) StderrLine: {'line': b'    File "<frozen importlib._bootstrap>", line 553, in module_from_spec\n'}
+[2.934749] (locomotion_core) StderrLine: {'line': b"  AttributeError: 'NoneType' object has no attribute 'loader'\n"}
+[2.934869] (locomotion_core) StderrLine: {'line': b'\n'}
+[2.934985] (locomotion_core) StderrLine: {'line': b'Remainder of file ignored\n'}
+[2.936783] (voice_control) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[2.937148] (voice_control) StderrLine: {'line': b'    File "/usr/lib/python3.8/site.py", line 175, in addpackage\n'}
+[2.937311] (voice_control) StderrLine: {'line': b'      exec(line)\n'}
+[2.937449] (voice_control) StderrLine: {'line': b'    File "<string>", line 1, in <module>\n'}
+[2.937578] (voice_control) StderrLine: {'line': b'    File "<frozen importlib._bootstrap>", line 553, in module_from_spec\n'}
+[2.937757] (voice_control) StderrLine: {'line': b"  AttributeError: 'NoneType' object has no attribute 'loader'\n"}
+[2.937884] (voice_control) StderrLine: {'line': b'\n'}
+[2.938008] (voice_control) StderrLine: {'line': b'Remainder of file ignored\n'}
+[2.942726] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.958188] (-) TimerEvent: {}
+[3.059422] (-) TimerEvent: {}
+[3.160442] (-) TimerEvent: {}
+[3.178892] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.260676] (-) TimerEvent: {}
+[3.294060] (rsl_scu) StdoutLine: {'line': b'running egg_info\n'}
+[3.295283] (rsl_scu) StdoutLine: {'line': b'creating ../../../../build/rsl_scu/rsl_scu.egg-info\n'}
+[3.295684] (rsl_scu) StdoutLine: {'line': b'writing ../../../../build/rsl_scu/rsl_scu.egg-info/PKG-INFO\n'}
+[3.296424] (rsl_scu) StdoutLine: {'line': b'writing dependency_links to ../../../../build/rsl_scu/rsl_scu.egg-info/dependency_links.txt\n'}
+[3.296769] (rsl_scu) StdoutLine: {'line': b'writing entry points to ../../../../build/rsl_scu/rsl_scu.egg-info/entry_points.txt\n'}
+[3.297550] (rsl_scu) StdoutLine: {'line': b'writing requirements to ../../../../build/rsl_scu/rsl_scu.egg-info/requires.txt\n'}
+[3.297735] (rsl_scu) StdoutLine: {'line': b'writing top-level names to ../../../../build/rsl_scu/rsl_scu.egg-info/top_level.txt\n'}
+[3.300774] (rsl_scu) StdoutLine: {'line': b"writing manifest file '../../../../build/rsl_scu/rsl_scu.egg-info/SOURCES.txt'\n"}
+[3.307715] (voice_control) StdoutLine: {'line': b'running egg_info\n'}
+[3.310300] (voice_control) StdoutLine: {'line': b'creating ../../../../build/voice_control/voice_control.egg-info\n'}
+[3.310663] (voice_control) StdoutLine: {'line': b'writing ../../../../build/voice_control/voice_control.egg-info/PKG-INFO\n'}
+[3.311040] (voice_control) StdoutLine: {'line': b'writing dependency_links to ../../../../build/voice_control/voice_control.egg-info/dependency_links.txt\n'}
+[3.311623] (voice_control) StdoutLine: {'line': b'writing entry points to ../../../../build/voice_control/voice_control.egg-info/entry_points.txt\n'}
+[3.311852] (voice_control) StdoutLine: {'line': b'writing requirements to ../../../../build/voice_control/voice_control.egg-info/requires.txt\n'}
+[3.312039] (voice_control) StdoutLine: {'line': b'writing top-level names to ../../../../build/voice_control/voice_control.egg-info/top_level.txt\n'}
+[3.315642] (voice_control) StdoutLine: {'line': b"writing manifest file '../../../../build/voice_control/voice_control.egg-info/SOURCES.txt'\n"}
+[3.320131] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.328961] (locomotion_core) StdoutLine: {'line': b'running egg_info\n'}
+[3.330501] (locomotion_core) StdoutLine: {'line': b'creating ../../../../build/locomotion_core/locomotion_core.egg-info\n'}
+[3.330829] (locomotion_core) StdoutLine: {'line': b'writing ../../../../build/locomotion_core/locomotion_core.egg-info/PKG-INFO\n'}
+[3.331724] (locomotion_core) StdoutLine: {'line': b'writing dependency_links to ../../../../build/locomotion_core/locomotion_core.egg-info/dependency_links.txt\n'}
+[3.332244] (locomotion_core) StdoutLine: {'line': b'writing entry points to ../../../../build/locomotion_core/locomotion_core.egg-info/entry_points.txt\n'}
+[3.332634] (locomotion_core) StdoutLine: {'line': b'writing requirements to ../../../../build/locomotion_core/locomotion_core.egg-info/requires.txt\n'}
+[3.332901] (locomotion_core) StdoutLine: {'line': b'writing top-level names to ../../../../build/locomotion_core/locomotion_core.egg-info/top_level.txt\n'}
+[3.337729] (locomotion_core) StdoutLine: {'line': b"writing manifest file '../../../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'\n"}
+[3.360866] (-) TimerEvent: {}
+[3.369803] (rsl_scu) StdoutLine: {'line': b"reading manifest file '../../../../build/rsl_scu/rsl_scu.egg-info/SOURCES.txt'\n"}
+[3.371278] (rsl_scu) StdoutLine: {'line': b"writing manifest file '../../../../build/rsl_scu/rsl_scu.egg-info/SOURCES.txt'\n"}
+[3.371718] (rsl_scu) StdoutLine: {'line': b'running build\n'}
+[3.371898] (rsl_scu) StdoutLine: {'line': b'running build_py\n'}
+[3.372168] (rsl_scu) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build\n'}
+[3.372384] (rsl_scu) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build/lib\n'}
+[3.376409] (rsl_scu) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build/lib/rsl_scu\n'}
+[3.376890] (rsl_scu) StdoutLine: {'line': b'copying rsl_scu/__init__.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build/lib/rsl_scu\n'}
+[3.377075] (rsl_scu) StdoutLine: {'line': b'copying rsl_scu/custom_joy.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build/lib/rsl_scu\n'}
+[3.377224] (rsl_scu) StdoutLine: {'line': b'running install\n'}
+[3.377412] (rsl_scu) StdoutLine: {'line': b'running install_lib\n'}
+[3.377677] (rsl_scu) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/python3.8/site-packages/rsl_scu\n'}
+[3.377838] (rsl_scu) StdoutLine: {'line': b'copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build/lib/rsl_scu/__init__.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/python3.8/site-packages/rsl_scu\n'}
+[3.378086] (rsl_scu) StdoutLine: {'line': b'copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build/lib/rsl_scu/custom_joy.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/python3.8/site-packages/rsl_scu\n'}
+[3.379144] (rsl_scu) StdoutLine: {'line': b'byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/python3.8/site-packages/rsl_scu/__init__.py to __init__.cpython-38.pyc\n'}
+[3.381744] (rsl_scu) StdoutLine: {'line': b'byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/python3.8/site-packages/rsl_scu/custom_joy.py to custom_joy.cpython-38.pyc\n'}
+[3.382857] (rsl_scu) StdoutLine: {'line': b'running install_data\n'}
+[3.383923] (rsl_scu) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/ament_index\n'}
+[3.384213] (rsl_scu) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/ament_index/resource_index\n'}
+[3.384495] (rsl_scu) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/ament_index/resource_index/packages\n'}
+[3.384728] (rsl_scu) StdoutLine: {'line': b'copying resource/rsl_scu -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/ament_index/resource_index/packages\n'}
+[3.384923] (rsl_scu) StdoutLine: {'line': b'copying package.xml -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/rsl_scu\n'}
+[3.385060] (rsl_scu) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.389919] (voice_control) StdoutLine: {'line': b"reading manifest file '../../../../build/voice_control/voice_control.egg-info/SOURCES.txt'\n"}
+[3.391032] (rsl_scu) StdoutLine: {'line': b'Copying ../../../../build/rsl_scu/rsl_scu.egg-info to /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/python3.8/site-packages/rsl_scu-0.0.0-py3.8.egg-info\n'}
+[3.395292] (voice_control) StdoutLine: {'line': b"writing manifest file '../../../../build/voice_control/voice_control.egg-info/SOURCES.txt'\n"}
+[3.396147] (rsl_scu) StdoutLine: {'line': b'running install_scripts\n'}
+[3.396541] (voice_control) StdoutLine: {'line': b'running build\n'}
+[3.396761] (voice_control) StdoutLine: {'line': b'running build_py\n'}
+[3.396911] (voice_control) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build\n'}
+[3.397049] (voice_control) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build/lib\n'}
+[3.397181] (voice_control) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build/lib/voice_control\n'}
+[3.397309] (voice_control) StdoutLine: {'line': b'copying voice_control/__init__.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build/lib/voice_control\n'}
+[3.397485] (voice_control) StdoutLine: {'line': b'copying voice_control/voice_command.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build/lib/voice_control\n'}
+[3.397613] (voice_control) StdoutLine: {'line': b'running install\n'}
+[3.397785] (voice_control) StdoutLine: {'line': b'running install_lib\n'}
+[3.398144] (voice_control) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control\n'}
+[3.398424] (voice_control) StdoutLine: {'line': b'copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build/lib/voice_control/__init__.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control\n'}
+[3.398582] (voice_control) StdoutLine: {'line': b'copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build/lib/voice_control/voice_command.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control\n'}
+[3.400648] (voice_control) StdoutLine: {'line': b'byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control/__init__.py to __init__.cpython-38.pyc\n'}
+[3.403021] (voice_control) StdoutLine: {'line': b'byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control/voice_command.py to voice_command.cpython-38.pyc\n'}
+[3.404370] (voice_control) StdoutLine: {'line': b'running install_data\n'}
+[3.405576] (voice_control) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/ament_index\n'}
+[3.405937] (voice_control) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/ament_index/resource_index\n'}
+[3.406201] (voice_control) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/ament_index/resource_index/packages\n'}
+[3.406480] (voice_control) StdoutLine: {'line': b'copying resource/voice_control -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/ament_index/resource_index/packages\n'}
+[3.406702] (voice_control) StdoutLine: {'line': b'copying package.xml -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/voice_control\n'}
+[3.406839] (voice_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.410867] (voice_control) StdoutLine: {'line': b'Copying ../../../../build/voice_control/voice_control.egg-info to /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control-0.0.0-py3.8.egg-info\n'}
+[3.414156] (voice_control) StdoutLine: {'line': b'running install_scripts\n'}
+[3.415004] (locomotion_core) StdoutLine: {'line': b"reading manifest file '../../../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'\n"}
+[3.417073] (locomotion_core) StdoutLine: {'line': b"writing manifest file '../../../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'\n"}
+[3.417361] (locomotion_core) StdoutLine: {'line': b'running build\n'}
+[3.417560] (locomotion_core) StdoutLine: {'line': b'running build_py\n'}
+[3.417940] (locomotion_core) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build\n'}
+[3.418134] (locomotion_core) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib\n'}
+[3.418495] (locomotion_core) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core\n'}
+[3.418650] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/RoverDescription.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core\n'}
+[3.418840] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/RobotDefinition.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core\n'}
+[3.419059] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/__init__.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core\n'}
+[3.419289] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/rover_state_controller.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core\n'}
+[3.419550] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/cmd_roboteq.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core\n'}
+[3.420558] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/driver_node.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core\n'}
+[3.420848] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/cmd_roboteq_test.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core\n'}
+[3.424468] (locomotion_core) StdoutLine: {'line': b'running install\n'}
+[3.424743] (locomotion_core) StdoutLine: {'line': b'running install_lib\n'}
+[3.425510] (locomotion_core) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[3.425774] (locomotion_core) StdoutLine: {'line': b'copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core/RoverDescription.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[3.426106] (locomotion_core) StdoutLine: {'line': b'copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core/RobotDefinition.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[3.426380] (locomotion_core) StdoutLine: {'line': b'copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core/__init__.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[3.426645] (locomotion_core) StdoutLine: {'line': b'copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core/rover_state_controller.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[3.426856] (locomotion_core) StdoutLine: {'line': b'copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core/cmd_roboteq.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[3.427101] (locomotion_core) StdoutLine: {'line': b'copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core/driver_node.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[3.427336] (locomotion_core) StdoutLine: {'line': b'copying /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core/cmd_roboteq_test.py -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[3.428835] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/RoverDescription.py to RoverDescription.cpython-38.pyc\n'}
+[3.432300] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/RobotDefinition.py to RobotDefinition.cpython-38.pyc\n'}
+[3.432997] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/__init__.py to __init__.cpython-38.pyc\n'}
+[3.433522] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/rover_state_controller.py to rover_state_controller.cpython-38.pyc\n'}
+[3.433762] (rsl_scu) StdoutLine: {'line': b'Installing rsl_joy script to /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/rsl_scu\n'}
+[3.434663] (rsl_scu) StdoutLine: {'line': b"writing list of installed files to '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/install.log'\n"}
+[3.434900] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/cmd_roboteq.py to cmd_roboteq.cpython-38.pyc\n'}
+[3.436154] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/driver_node.py to driver_node.cpython-38.pyc\n'}
+[3.436963] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/cmd_roboteq_test.py to cmd_roboteq_test.cpython-38.pyc\n'}
+[3.437986] (locomotion_core) StdoutLine: {'line': b'running install_data\n'}
+[3.439416] (locomotion_core) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/ament_index\n'}
+[3.439649] (locomotion_core) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/ament_index/resource_index\n'}
+[3.439846] (locomotion_core) StdoutLine: {'line': b'creating /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/ament_index/resource_index/packages\n'}
+[3.440028] (locomotion_core) StdoutLine: {'line': b'copying resource/locomotion_core -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/ament_index/resource_index/packages\n'}
+[3.440310] (locomotion_core) StdoutLine: {'line': b'copying package.xml -> /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/locomotion_core\n'}
+[3.440708] (locomotion_core) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.445728] (locomotion_core) StdoutLine: {'line': b'Copying ../../../../build/locomotion_core/locomotion_core.egg-info to /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core-0.0.0-py3.8.egg-info\n'}
+[3.448347] (locomotion_core) StdoutLine: {'line': b'running install_scripts\n'}
+[3.460553] (voice_control) StdoutLine: {'line': b"writing list of installed files to '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/install.log'\n"}
+[3.461145] (-) TimerEvent: {}
+[3.507459] (locomotion_core) StdoutLine: {'line': b'Installing cmd_roboteq script to /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/locomotion_core\n'}
+[3.508415] (locomotion_core) StdoutLine: {'line': b'Installing drive_selector script to /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/locomotion_core\n'}
+[3.508774] (locomotion_core) StdoutLine: {'line': b'Installing movebase_core script to /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/locomotion_core\n'}
+[3.508932] (locomotion_core) StdoutLine: {'line': b'Installing rover_state_controller script to /home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/locomotion_core\n'}
+[3.510300] (locomotion_core) StdoutLine: {'line': b"writing list of installed files to '/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/install.log'\n"}
+[3.533258] (rsl_scu) CommandEnded: {'returncode': 0}
+[3.565111] (-) TimerEvent: {}
+[3.577812] (rsl_scu) JobEnded: {'identifier': 'rsl_scu', 'rc': 0}
+[3.590455] (voice_control) CommandEnded: {'returncode': 0}
+[3.600081] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.612153] (voice_control) JobEnded: {'identifier': 'voice_control', 'rc': 0}
+[3.637683] (locomotion_core) CommandEnded: {'returncode': 0}
+[3.655898] (locomotion_core) JobEnded: {'identifier': 'locomotion_core', 'rc': 0}
+[3.665169] (-) TimerEvent: {}
+[3.757684] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.758703] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.765256] (-) TimerEvent: {}
+[3.765776] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.865511] (-) TimerEvent: {}
+[3.966482] (-) TimerEvent: {}
+[4.009702] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.013457] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.066724] (-) TimerEvent: {}
+[4.167585] (-) TimerEvent: {}
+[4.268202] (-) TimerEvent: {}
+[4.369257] (-) TimerEvent: {}
+[4.422476] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.458946] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.459990] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.469313] (-) TimerEvent: {}
+[4.569970] (-) TimerEvent: {}
+[4.620414] (teleop_twist_joy) StderrLine: {'line': b'CMake Error at CMakeLists.txt:13 (find_package):\n'}
+[4.621586] (teleop_twist_joy) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[4.622206] (teleop_twist_joy) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[4.622608] (teleop_twist_joy) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[4.622952] (teleop_twist_joy) StderrLine: {'line': b'\n'}
+[4.623274] (teleop_twist_joy) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[4.623591] (teleop_twist_joy) StderrLine: {'line': b'  any of the following names:\n'}
+[4.623902] (teleop_twist_joy) StderrLine: {'line': b'\n'}
+[4.624193] (teleop_twist_joy) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[4.624555] (teleop_twist_joy) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[4.624854] (teleop_twist_joy) StderrLine: {'line': b'\n'}
+[4.625155] (teleop_twist_joy) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[4.625441] (teleop_twist_joy) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[4.625739] (teleop_twist_joy) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[4.626019] (teleop_twist_joy) StderrLine: {'line': b'  has been installed.\n'}
+[4.626316] (teleop_twist_joy) StderrLine: {'line': b'\n'}
+[4.626597] (teleop_twist_joy) StderrLine: {'line': b'\n'}
+[4.626894] (teleop_twist_joy) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.627246] (teleop_twist_joy) StdoutLine: {'line': b'See also "/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/build/teleop_twist_joy/CMakeFiles/CMakeOutput.log".\n'}
+[4.633489] (teleop_twist_joy) CommandEnded: {'returncode': 1}
+[4.675040] (-) TimerEvent: {}
+[4.687290] (teleop_twist_joy) JobEnded: {'identifier': 'teleop_twist_joy', 'rc': 1}
+[4.698957] (-) EventReactorShutdown: {}
