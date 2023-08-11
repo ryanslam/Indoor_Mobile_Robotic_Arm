@@ -1,9 +1,0 @@
-/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/roboteq_interface/CMakeFiles/install/strip.dir
-/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/roboteq_interface/CMakeFiles/install/local.dir
-/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/roboteq_interface/CMakeFiles/install.dir
-/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/roboteq_interface/CMakeFiles/list_install_components.dir
-/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/roboteq_interface/CMakeFiles/rebuild_cache.dir
-/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/roboteq_interface/CMakeFiles/edit_cache.dir
-/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/roboteq_interface/CMakeFiles/test.dir
-/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/roboteq_interface/CMakeFiles/roboteq_interface_uninstall.dir
-/home/rsl/Desktop/Indoor_Mobile_Robotic_Arm/Thesis/build/roboteq_interface/CMakeFiles/uninstall.dir
