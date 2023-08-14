@@ -14,7 +14,7 @@ from . import RoverDescription as Rover
 class get_move_cmds(Node):
 
     def __init__(self):
-        super().__init__('rover_state_controler')
+        super().__init__('rover_velocity')
 
         # Initialize the rover object to define the rover.
         self.rov = Rover.RoverDescription('RobArm', ((205, 170), 63.5))
